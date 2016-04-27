@@ -1,0 +1,47 @@
+C:\Users\campichele\AppData\Local\Temporary Projects\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.exe
+C:\Users\campichele\AppData\Local\Temporary Projects\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.pdb
+C:\Users\campichele\AppData\Local\Temporary Projects\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.fileManipulationForm.resources
+C:\Users\campichele\AppData\Local\Temporary Projects\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.Properties.Resources.resources
+C:\Users\campichele\AppData\Local\Temporary Projects\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.csproj.GenerateResource.Cache
+C:\Users\campichele\AppData\Local\Temporary Projects\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.exe
+C:\Users\campichele\AppData\Local\Temporary Projects\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.pdb
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.exe
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.pdb
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.exe
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.pdb
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.fileManipulationForm.resources
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.Properties.Resources.resources
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.csproj.GenerateResource.Cache
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.csprojResolveAssemblyReference.cache
+C:\Users\campichele\Desktop\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.exe
+C:\Users\campichele\Desktop\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.pdb
+C:\Users\campichele\Desktop\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.exe
+C:\Users\campichele\Desktop\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.pdb
+C:\Users\campichele\Desktop\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.csprojResolveAssemblyReference.cache
+C:\Users\campichele\Desktop\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.fileManipulationForm.resources
+C:\Users\campichele\Desktop\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.Properties.Resources.resources
+C:\Users\campichele\Desktop\042-campichele-ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.csproj.GenerateResource.Cache
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.1\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.exe
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.1\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.pdb
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.1\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.exe
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.1\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.pdb
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.1\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.csprojResolveAssemblyReference.cache
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.1\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.fileManipulationForm.resources
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.1\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.Properties.Resources.resources
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.1\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.csproj.GenerateResource.Cache
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.3\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.exe
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.3\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.pdb
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.3\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.exe
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.3\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.pdb
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.3\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.csprojResolveAssemblyReference.cache
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.3\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.fileManipulationForm.resources
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.3\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.Properties.Resources.resources
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\042-campichele-ManipulationNomFichier-1.3\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.csproj.GenerateResource.Cache
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\mManipNomsFichiers\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.exe
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\mManipNomsFichiers\042-campichele-ManipulationNomFichier\bin\Debug\042-campichele-ManipulationNomFichier.pdb
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\mManipNomsFichiers\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.csprojResolveAssemblyReference.cache
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\mManipNomsFichiers\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.fileManipulationForm.resources
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\mManipNomsFichiers\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.Properties.Resources.resources
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\mManipNomsFichiers\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.csproj.GenerateResource.Cache
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\mManipNomsFichiers\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.exe
+H:\Applications-Projets\042-GesProj2\P2 - ToolBox\mManipNomsFichiers\042-campichele-ManipulationNomFichier\obj\x86\Debug\042-campichele-ManipulationNomFichier.pdb
