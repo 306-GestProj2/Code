@@ -1,0 +1,7 @@
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\bin\Debug\ToolBoxETML-Dessin.exe
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\bin\Debug\ToolBoxETML-Dessin.pdb
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.Properties.Resources.resources
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.csproj.GenerateResource.Cache
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.exe
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.pdb
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.Painting.resources
