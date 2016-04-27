@@ -13,8 +13,11 @@ namespace ToolBoxETML_Dessin
     public partial class Painting : Form
     {
         private SolidBrush myBrush;
+        private SolidBrush eraser;
+        private Pen lePen;
         private Graphics myGraphics;
         private bool isDrawing = false;
+        private string stateTool = "pen";
 
         public Painting()
         {
@@ -22,6 +25,9 @@ namespace ToolBoxETML_Dessin
             cmbSizeBrush.Text = "10";
             myBrush = new SolidBrush(lblColor.BackColor);
             myGraphics = picDrawingZone.CreateGraphics();
+            pnlPen.BackColor = Color.LightGray;
+            eraser = new SolidBrush(Color.White);
+            lePen = new Pen(Color.White);
         }
 
         private void lblColor_Click(object sender, EventArgs e)
@@ -41,6 +47,13 @@ namespace ToolBoxETML_Dessin
         private void picDrawingZone_MouseUp(object sender, MouseEventArgs e)
         {
             isDrawing = false;
+
+            Bitmap pasPerdre = new Bitmap(picDrawingZone.Width, picDrawingZone.Height);
+            Graphics g = Graphics.FromImage(pasPerdre);
+            Rectangle rect = picDrawingZone.RectangleToScreen(picDrawingZone.ClientRectangle);
+            g.CopyFromScreen(rect.Location, Point.Empty, picDrawingZone.Size);
+            g.Dispose();
+            picDrawingZone.Image = pasPerdre;
         }
 
         private void picDrawingZone_MouseMove(object sender, MouseEventArgs e)
@@ -48,14 +61,26 @@ namespace ToolBoxETML_Dessin
             if (isDrawing)
             {
                 myGraphics = picDrawingZone.CreateGraphics();
-                myGraphics.FillEllipse(myBrush, e.X, e.Y, Convert.ToInt64(cmbSizeBrush.Text), Convert.ToInt64(cmbSizeBrush.Text));
+                switch (stateTool)
+                {
+                    case "pencil":
+                        myGraphics.FillEllipse(myBrush, e.X, e.Y, Convert.ToInt64(cmbSizeBrush.Text), Convert.ToInt64(cmbSizeBrush.Text));
+                        break;
+                    case "pen":
+                        myGraphics.FillRectangle(myBrush, e.X, e.Y, Convert.ToInt64(cmbSizeBrush.Text), Convert.ToInt64(cmbSizeBrush.Text));
+                        break;
+                    case "eraser":
+                        myGraphics.FillRectangle(eraser, e.X, e.Y, Convert.ToInt64(cmbSizeBrush.Text), Convert.ToInt64(cmbSizeBrush.Text));
+                        break;
+                }
                 myGraphics.Dispose();
             }
         }
 
         private void toutEffacerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            myGraphics.Clear(Color.White);
+            picDrawingZone.Refresh();
+            picDrawingZone.Image = null;
         }
 
         private void enregistrerSousToolStripMenuItem_Click(object sender, EventArgs e)
@@ -72,6 +97,31 @@ namespace ToolBoxETML_Dessin
                 bmp.Save(s.FileName, ImageFormat.Png);
             }
             
+        }
+
+        private void pnlPen_MouseClick(object sender, MouseEventArgs e)
+        {
+            stateTool = "pen";
+            pnlPen.BackColor = Color.LightGray;
+            pnlPencil.BackColor = Color.White;
+            pnlEraser.BackColor = Color.White;
+
+        }
+
+        private void pnlPencil_MouseClick(object sender, MouseEventArgs e)
+        {
+            stateTool = "pencil";
+            pnlPencil.BackColor = Color.LightGray;
+            pnlPen.BackColor = Color.White;
+            pnlEraser.BackColor = Color.White;
+        }
+
+        private void pnlEraser_MouseClick(object sender, MouseEventArgs e)
+        {
+            stateTool = "eraser";
+            pnlPencil.BackColor = Color.White;
+            pnlPen.BackColor = Color.White;
+            pnlEraser.BackColor = Color.LightGray;
         }
     }
 }

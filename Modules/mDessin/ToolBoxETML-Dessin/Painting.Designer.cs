@@ -43,9 +43,14 @@
             this.pleinÉcranToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.aProposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.grpTools = new System.Windows.Forms.GroupBox();
+            this.pnlEraser = new System.Windows.Forms.Panel();
+            this.pnlPen = new System.Windows.Forms.Panel();
+            this.pnlPencil = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.picDrawingZone)).BeginInit();
             this.grpBxTools.SuspendLayout();
             this.menuStrip.SuspendLayout();
+            this.grpTools.SuspendLayout();
             this.SuspendLayout();
             // 
             // picDrawingZone
@@ -54,6 +59,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picDrawingZone.BackColor = System.Drawing.Color.White;
+            this.picDrawingZone.Cursor = System.Windows.Forms.Cursors.Default;
             this.picDrawingZone.Location = new System.Drawing.Point(90, 38);
             this.picDrawingZone.Name = "picDrawingZone";
             this.picDrawingZone.Size = new System.Drawing.Size(737, 544);
@@ -65,7 +71,7 @@
             // 
             // grpBxTools
             // 
-            this.grpBxTools.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.grpBxTools.BackColor = System.Drawing.SystemColors.Control;
             this.grpBxTools.Controls.Add(this.cmbSizeBrush);
             this.grpBxTools.Controls.Add(this.lblColor);
             this.grpBxTools.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -153,7 +159,7 @@
             // toutEffacerToolStripMenuItem
             // 
             this.toutEffacerToolStripMenuItem.Name = "toutEffacerToolStripMenuItem";
-            this.toutEffacerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.toutEffacerToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.toutEffacerToolStripMenuItem.Text = "Tout effacer";
             this.toutEffacerToolStripMenuItem.Click += new System.EventHandler(this.toutEffacerToolStripMenuItem_Click);
             // 
@@ -168,7 +174,7 @@
             // pleinÉcranToolStripMenuItem
             // 
             this.pleinÉcranToolStripMenuItem.Name = "pleinÉcranToolStripMenuItem";
-            this.pleinÉcranToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pleinÉcranToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.pleinÉcranToolStripMenuItem.Text = "Plein écran";
             // 
             // toolStripMenuItem1
@@ -182,14 +188,61 @@
             // aProposToolStripMenuItem
             // 
             this.aProposToolStripMenuItem.Name = "aProposToolStripMenuItem";
-            this.aProposToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aProposToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.aProposToolStripMenuItem.Text = "A propos";
+            // 
+            // grpTools
+            // 
+            this.grpTools.BackColor = System.Drawing.SystemColors.Control;
+            this.grpTools.Controls.Add(this.pnlEraser);
+            this.grpTools.Controls.Add(this.pnlPen);
+            this.grpTools.Controls.Add(this.pnlPencil);
+            this.grpTools.Location = new System.Drawing.Point(7, 164);
+            this.grpTools.Name = "grpTools";
+            this.grpTools.Size = new System.Drawing.Size(76, 117);
+            this.grpTools.TabIndex = 4;
+            this.grpTools.TabStop = false;
+            this.grpTools.Text = "Outils";
+            // 
+            // pnlEraser
+            // 
+            this.pnlEraser.BackColor = System.Drawing.Color.White;
+            this.pnlEraser.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlEraser.BackgroundImage")));
+            this.pnlEraser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlEraser.Location = new System.Drawing.Point(3, 63);
+            this.pnlEraser.Name = "pnlEraser";
+            this.pnlEraser.Size = new System.Drawing.Size(32, 29);
+            this.pnlEraser.TabIndex = 6;
+            this.pnlEraser.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlEraser_MouseClick);
+            // 
+            // pnlPen
+            // 
+            this.pnlPen.BackColor = System.Drawing.Color.White;
+            this.pnlPen.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlPen.BackgroundImage")));
+            this.pnlPen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlPen.Location = new System.Drawing.Point(3, 28);
+            this.pnlPen.Name = "pnlPen";
+            this.pnlPen.Size = new System.Drawing.Size(32, 29);
+            this.pnlPen.TabIndex = 5;
+            this.pnlPen.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlPen_MouseClick);
+            // 
+            // pnlPencil
+            // 
+            this.pnlPencil.BackColor = System.Drawing.Color.White;
+            this.pnlPencil.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlPencil.BackgroundImage")));
+            this.pnlPencil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlPencil.Location = new System.Drawing.Point(41, 28);
+            this.pnlPencil.Name = "pnlPencil";
+            this.pnlPencil.Size = new System.Drawing.Size(32, 29);
+            this.pnlPencil.TabIndex = 5;
+            this.pnlPencil.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlPencil_MouseClick);
             // 
             // Painting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(839, 593);
+            this.Controls.Add(this.grpTools);
             this.Controls.Add(this.grpBxTools);
             this.Controls.Add(this.picDrawingZone);
             this.Controls.Add(this.menuStrip);
@@ -201,6 +254,7 @@
             this.grpBxTools.ResumeLayout(false);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
+            this.grpTools.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,6 +276,10 @@
         private System.Windows.Forms.ToolStripMenuItem aProposToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toutEffacerToolStripMenuItem;
+        private System.Windows.Forms.GroupBox grpTools;
+        private System.Windows.Forms.Panel pnlPen;
+        private System.Windows.Forms.Panel pnlPencil;
+        private System.Windows.Forms.Panel pnlEraser;
     }
 }
 

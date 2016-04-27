@@ -5,3 +5,11 @@ K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\Tool
 K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML-Dessin.csproj.GenerateResource.Cache
 K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML-Dessin.exe
 K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML-Dessin.pdb
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML-Dessin.exe
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML-Dessin.pdb
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\bin\Release\ToolBoxETML-Dessin.exe
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\bin\Release\ToolBoxETML-Dessin.pdb
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML_Dessin.Painting.resources
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML_Dessin.Properties.Resources.resources
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML-Dessin.csproj.GenerateResource.Cache
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML-Dessin.csprojResolveAssemblyReference.cache
