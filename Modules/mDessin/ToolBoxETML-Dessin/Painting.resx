@@ -127,7 +127,7 @@
   <data name="pnlEraser.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAawAAAF1CAYAAAC0+d5LAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
-        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAADsIAAA7CARUoSoAAABFjSURBVHhe7d2BcRRX2oVhZ8Cf
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAADsEAAA7BAbiRa+0AABFjSURBVHhe7d2BcRRX2oVhZ8Cf
         AcrAygBCIAPIgM3A3gjsDChH4NoIqI3AtREoBIfgfxrTRohzxUgz3f3de5+v6ql1HdYasKf1FkY2P/z1
         118AUF4cAaCaOAJANXEEgGriCADVxBEAqokjAFQTRwCoJo4AUE0cAaCaOAJANXEEgGriCADVxBEAqokj
         AFQTRwCoJo4AUE0cAaCaOALs4Y8//vi/X3/99c3PP//87l+ne/369YfF8sfLtnxb+vOYUxwBtrJEagnS
@@ -260,6 +260,9 @@
         9ArW4AQ38VCh6JPb+nMy3f/XX1/oV2BHu+JDz0jrfwwnM1/9H8L1AAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="timIdle.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>236, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAUAMDAAAAEAIACoJQAAVgAAACAgAAABACAAqBAAAP4lAAAgIAAAAQAIAKgIAACmNgAAEBAAAAEA

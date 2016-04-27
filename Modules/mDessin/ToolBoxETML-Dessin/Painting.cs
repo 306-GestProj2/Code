@@ -18,6 +18,7 @@ namespace ToolBoxETML_Dessin
         private Graphics myGraphics;
         private bool isDrawing = false;
         private string stateTool = "pen";
+        private bool blnSave = true;
 
         public Painting()
         {
@@ -47,13 +48,10 @@ namespace ToolBoxETML_Dessin
         private void picDrawingZone_MouseUp(object sender, MouseEventArgs e)
         {
             isDrawing = false;
-
-            Bitmap pasPerdre = new Bitmap(picDrawingZone.Width, picDrawingZone.Height);
-            Graphics g = Graphics.FromImage(pasPerdre);
-            Rectangle rect = picDrawingZone.RectangleToScreen(picDrawingZone.ClientRectangle);
-            g.CopyFromScreen(rect.Location, Point.Empty, picDrawingZone.Size);
-            g.Dispose();
-            picDrawingZone.Image = pasPerdre;
+            if (blnSave)
+            {
+                SaveDrawing();
+            }
         }
 
         private void picDrawingZone_MouseMove(object sender, MouseEventArgs e)
@@ -85,6 +83,7 @@ namespace ToolBoxETML_Dessin
 
         private void enregistrerSousToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            blnSave = false;
             Bitmap bmp = new Bitmap(picDrawingZone.Width, picDrawingZone.Height);
             Graphics g = Graphics.FromImage(bmp);
             Rectangle rect = picDrawingZone.RectangleToScreen(picDrawingZone.ClientRectangle);
@@ -96,6 +95,7 @@ namespace ToolBoxETML_Dessin
             {
                 bmp.Save(s.FileName, ImageFormat.Png);
             }
+            blnSave = true;
             
         }
 
@@ -122,6 +122,32 @@ namespace ToolBoxETML_Dessin
             pnlPencil.BackColor = Color.White;
             pnlPen.BackColor = Color.White;
             pnlEraser.BackColor = Color.LightGray;
+        }
+
+
+        private void SaveDrawing()
+        {
+            Bitmap pasPerdre = new Bitmap(picDrawingZone.Width, picDrawingZone.Height);
+            Graphics g = Graphics.FromImage(pasPerdre);
+            Rectangle rect = picDrawingZone.RectangleToScreen(picDrawingZone.ClientRectangle);
+            g.CopyFromScreen(rect.Location, Point.Empty, picDrawingZone.Size);
+            g.Dispose();
+            picDrawingZone.Image = pasPerdre;
+        }
+
+        private void ouvrirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            blnSave = false;
+            OpenFileDialog open = new OpenFileDialog();
+            open.Filter = "Png files|*.png";
+            if (open.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+               Image.FromFile(open.FileName);
+            }
+            picDrawingZone.Image = Image.FromFile(open.FileName);
+            timIdle.Enabled = true;
+            if(timIdle.Tick = 300)
+            blnSave = true;
         }
     }
 }

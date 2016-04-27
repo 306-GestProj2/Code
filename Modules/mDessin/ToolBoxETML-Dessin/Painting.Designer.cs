@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Painting));
             this.picDrawingZone = new System.Windows.Forms.PictureBox();
             this.grpBxTools = new System.Windows.Forms.GroupBox();
@@ -47,6 +48,8 @@
             this.pnlEraser = new System.Windows.Forms.Panel();
             this.pnlPen = new System.Windows.Forms.Panel();
             this.pnlPencil = new System.Windows.Forms.Panel();
+            this.ouvrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timIdle = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.picDrawingZone)).BeginInit();
             this.grpBxTools.SuspendLayout();
             this.menuStrip.SuspendLayout();
@@ -136,6 +139,7 @@
             // fichierToolStripMenuItem
             // 
             this.fichierToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ouvrirToolStripMenuItem,
             this.enregistrerSousToolStripMenuItem});
             this.fichierToolStripMenuItem.Name = "fichierToolStripMenuItem";
             this.fichierToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
@@ -237,6 +241,17 @@
             this.pnlPencil.TabIndex = 5;
             this.pnlPencil.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlPencil_MouseClick);
             // 
+            // ouvrirToolStripMenuItem
+            // 
+            this.ouvrirToolStripMenuItem.Name = "ouvrirToolStripMenuItem";
+            this.ouvrirToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.ouvrirToolStripMenuItem.Text = "Ouvrir...";
+            this.ouvrirToolStripMenuItem.Click += new System.EventHandler(this.ouvrirToolStripMenuItem_Click);
+            // 
+            // timIdle
+            // 
+            this.timIdle.Interval = 300;
+            // 
             // Painting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -280,6 +295,8 @@
         private System.Windows.Forms.Panel pnlPen;
         private System.Windows.Forms.Panel pnlPencil;
         private System.Windows.Forms.Panel pnlEraser;
+        private System.Windows.Forms.ToolStripMenuItem ouvrirToolStripMenuItem;
+        private System.Windows.Forms.Timer timIdle;
     }
 }
 
