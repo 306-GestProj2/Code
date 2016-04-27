@@ -1,0 +1,8 @@
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.FormCalculFunction.resources
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.Properties.Resources.resources
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.csproj.GenerateResource.Cache
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.csprojResolveAssemblyReference.cache
+H:\FormCalculFunction\bin\Debug\FormCalculFunction.exe
+H:\FormCalculFunction\bin\Debug\FormCalculFunction.pdb
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.exe
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.pdb
