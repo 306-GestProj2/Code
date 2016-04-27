@@ -1,0 +1,8 @@
+H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\bin\Release\Tire-balistique.exe
+H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\bin\Release\Tire-balistique.pdb
+H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\obj\x86\Release\Tire_balistique.Form1.resources
+H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\obj\x86\Release\Tire_balistique.Properties.Resources.resources
+H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\obj\x86\Release\Tire-balistique.csproj.GenerateResource.Cache
+H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\obj\x86\Release\Tire-balistique.exe
+H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\obj\x86\Release\Tire-balistique.pdb
+H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\obj\x86\Release\Tire-balistique.csprojResolveAssemblyReference.cache
