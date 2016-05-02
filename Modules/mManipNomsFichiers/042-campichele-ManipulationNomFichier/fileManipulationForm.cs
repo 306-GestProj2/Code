@@ -96,7 +96,7 @@ namespace _042_campichele_ManipulationNomFichier
                     string msg = e.ToString();
                     if (msg.Contains("UnauthorizedAccessException"))
                     {
-                        var failOpenOutput = MessageBox.Show("L'exception \"UnauthorizedAccessException\" est survenue et peut vouloir dire 4 choses:\n -L'appelant n'a pas l'autorisation requise.\n -Le fichier est un fichier exécutable qui est en cours d'utilisation.\n -Le fichier est un répertoire. \n -Le fichier spécifié est en lecture seule.\n Arrêt des modifications depuis l'erreur.","Echec", MessageBoxButtons.YesNo);
+                        var failOpenOutput = MessageBox.Show("L'exception \"UnauthorizedAccessException\" est survenue et peut vouloir dire 4 choses:\n -L'appelant n'a pas l'autorisation requise.\n -Le fichier est un fichier exécutable qui est en cours d'utilisation.\n -Le fichier est un répertoire. \n -Le fichier spécifié est en lecture seule.\n Arrêt des modifications depuis l'erreur.\nOuvrir le fichier des résultats?", "Echec", MessageBoxButtons.YesNo);
                         if (failOpenOutput == DialogResult.Yes)
                         {
                             Process.Start("notepad.exe", outputPath);
@@ -109,7 +109,7 @@ namespace _042_campichele_ManipulationNomFichier
                     }
                     else
                     {
-                        var failOpenOutput = MessageBox.Show("Erreur: une exception est survenue. Arrêt des modifications depuis l'erreur.", "Echec", MessageBoxButtons.YesNo);
+                        var failOpenOutput = MessageBox.Show("Erreur: une exception est survenue. Arrêt des modifications depuis l'erreur.\nOuvrir le fichier des résultats?", "Echec", MessageBoxButtons.YesNo);
                         if (failOpenOutput == DialogResult.Yes)
                         {
                             Process.Start("notepad.exe", outputPath);
@@ -124,7 +124,7 @@ namespace _042_campichele_ManipulationNomFichier
             }
             //store results output by lines
             resultOutputTab = resultLabel.Lines;
-            var SuccesOpenOutput = MessageBox.Show("Tous les fichiers ont été modifiés avec succès.", "Succès", MessageBoxButtons.YesNo);
+            var SuccesOpenOutput = MessageBox.Show("Tous les fichiers ont été modifiés avec succès.\nOuvrir le fichier des résultats?", "Succès", MessageBoxButtons.YesNo);
             // If the yes button was pressed ...
             if (SuccesOpenOutput == DialogResult.Yes)
             {
