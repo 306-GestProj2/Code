@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Drawing.Imaging;
+using ToolBoxETML_Dessin;
 
 namespace ToolBoxETML_Dessin
 {
@@ -19,6 +20,12 @@ namespace ToolBoxETML_Dessin
         private bool isDrawing = false;
         private string stateTool = "pen";
         private bool blnSave = true;
+        private string txtToAdd = null;
+        private string selectedFont = "Arial";
+        private int selectedSize = 12;
+        Text formText = new Text();
+        private int intX;
+        private int intY;
 
         public Painting()
         {
@@ -43,6 +50,8 @@ namespace ToolBoxETML_Dessin
         private void picDrawingZone_MouseDown(object sender, MouseEventArgs e)
         {
             isDrawing = true;
+            intX = e.X;
+            intY = e.Y;
         }
 
         private void picDrawingZone_MouseUp(object sender, MouseEventArgs e)
@@ -70,6 +79,9 @@ namespace ToolBoxETML_Dessin
                     case "eraser":
                         myGraphics.FillRectangle(eraser, e.X, e.Y, Convert.ToInt64(cmbSizeBrush.Text), Convert.ToInt64(cmbSizeBrush.Text));
                         break;
+                    //case "text":
+
+                    //    break;
                 }
                 myGraphics.Dispose();
             }
@@ -114,6 +126,7 @@ namespace ToolBoxETML_Dessin
             pnlPencil.BackColor = Color.LightGray;
             pnlPen.BackColor = Color.White;
             pnlEraser.BackColor = Color.White;
+            pnlText.BackColor = Color.White;
         }
 
         private void pnlEraser_MouseClick(object sender, MouseEventArgs e)
@@ -122,6 +135,7 @@ namespace ToolBoxETML_Dessin
             pnlPencil.BackColor = Color.White;
             pnlPen.BackColor = Color.White;
             pnlEraser.BackColor = Color.LightGray;
+            pnlText.BackColor = Color.White;
         }
 
 
@@ -145,9 +159,50 @@ namespace ToolBoxETML_Dessin
                Image.FromFile(open.FileName);
             }
             picDrawingZone.Image = Image.FromFile(open.FileName);
-            timIdle.Enabled = true;
-            if(timIdle.Tick = 300)
-            blnSave = true;
         }
+
+        private void pnlText_MouseClick(object sender, MouseEventArgs e)
+        {
+            stateTool = "text";
+            pnlPencil.BackColor = Color.White;
+            pnlPen.BackColor = Color.White;
+            pnlEraser.BackColor = Color.White;
+            pnlText.BackColor = Color.LightGray;
+        }
+
+        private void picDrawingZone_Click(object sender, EventArgs e)
+        {
+            if (stateTool == "text")
+            {
+                if (txtToAdd != null)
+                    myGraphics.DrawString(txtToAdd, new Font(selectedFont, selectedSize), myBrush, new Point(intX, intY));
+                txtToAdd = null;
+                intX = 0;
+                intY = 0;
+            }
+        }
+
+        private void btnValidateText_Click(object sender, EventArgs e)
+        {
+            if (stateTool == "text")
+            {
+                Text Text = new Text();
+                if (txtToAdd == null)
+                {
+                    if (Text.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                    {
+                        txtToAdd = Text.ReturnText();
+                    }
+                }
+            }
+        }
+        private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (fontDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                selectedFont = Convert.ToString(fontDialog.Font.Name);
+                selectedSize = Convert.ToInt32(fontDialog.Font.Size);
+            }
+        }            
     }
 }

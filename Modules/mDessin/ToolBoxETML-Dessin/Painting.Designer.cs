@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Painting));
             this.picDrawingZone = new System.Windows.Forms.PictureBox();
             this.grpBxTools = new System.Windows.Forms.GroupBox();
@@ -37,9 +36,12 @@
             this.pickAColor = new System.Windows.Forms.ColorDialog();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ouvrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enregistrerSousToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toutEffacerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.policeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.affichageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pleinÉcranToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,12 +50,16 @@
             this.pnlEraser = new System.Windows.Forms.Panel();
             this.pnlPen = new System.Windows.Forms.Panel();
             this.pnlPencil = new System.Windows.Forms.Panel();
-            this.ouvrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.timIdle = new System.Windows.Forms.Timer(this.components);
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnValidateText = new System.Windows.Forms.Button();
+            this.pnlText = new System.Windows.Forms.Panel();
+            this.fontDialog = new System.Windows.Forms.FontDialog();
             ((System.ComponentModel.ISupportInitialize)(this.picDrawingZone)).BeginInit();
             this.grpBxTools.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.grpTools.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // picDrawingZone
@@ -68,6 +74,7 @@
             this.picDrawingZone.Size = new System.Drawing.Size(737, 544);
             this.picDrawingZone.TabIndex = 0;
             this.picDrawingZone.TabStop = false;
+            this.picDrawingZone.Click += new System.EventHandler(this.picDrawingZone_Click);
             this.picDrawingZone.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picDrawingZone_MouseDown);
             this.picDrawingZone.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picDrawingZone_MouseMove);
             this.picDrawingZone.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picDrawingZone_MouseUp);
@@ -128,6 +135,7 @@
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fichierToolStripMenuItem,
             this.editionToolStripMenuItem,
+            this.policeToolStripMenuItem,
             this.affichageToolStripMenuItem,
             this.toolStripMenuItem1});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
@@ -144,6 +152,13 @@
             this.fichierToolStripMenuItem.Name = "fichierToolStripMenuItem";
             this.fichierToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.fichierToolStripMenuItem.Text = "Fichier";
+            // 
+            // ouvrirToolStripMenuItem
+            // 
+            this.ouvrirToolStripMenuItem.Name = "ouvrirToolStripMenuItem";
+            this.ouvrirToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.ouvrirToolStripMenuItem.Text = "Ouvrir...";
+            this.ouvrirToolStripMenuItem.Click += new System.EventHandler(this.ouvrirToolStripMenuItem_Click);
             // 
             // enregistrerSousToolStripMenuItem
             // 
@@ -166,6 +181,21 @@
             this.toutEffacerToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.toutEffacerToolStripMenuItem.Text = "Tout effacer";
             this.toutEffacerToolStripMenuItem.Click += new System.EventHandler(this.toutEffacerToolStripMenuItem_Click);
+            // 
+            // policeToolStripMenuItem
+            // 
+            this.policeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.optionsToolStripMenuItem});
+            this.policeToolStripMenuItem.Name = "policeToolStripMenuItem";
+            this.policeToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.policeToolStripMenuItem.Text = "Police";
+            // 
+            // optionsToolStripMenuItem
+            // 
+            this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.optionsToolStripMenuItem.Text = "Options...";
+            this.optionsToolStripMenuItem.Click += new System.EventHandler(this.optionsToolStripMenuItem_Click);
             // 
             // affichageToolStripMenuItem
             // 
@@ -203,7 +233,7 @@
             this.grpTools.Controls.Add(this.pnlPencil);
             this.grpTools.Location = new System.Drawing.Point(7, 164);
             this.grpTools.Name = "grpTools";
-            this.grpTools.Size = new System.Drawing.Size(76, 117);
+            this.grpTools.Size = new System.Drawing.Size(76, 100);
             this.grpTools.TabIndex = 4;
             this.grpTools.TabStop = false;
             this.grpTools.Text = "Outils";
@@ -241,22 +271,48 @@
             this.pnlPencil.TabIndex = 5;
             this.pnlPencil.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlPencil_MouseClick);
             // 
-            // ouvrirToolStripMenuItem
+            // printDialog1
             // 
-            this.ouvrirToolStripMenuItem.Name = "ouvrirToolStripMenuItem";
-            this.ouvrirToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
-            this.ouvrirToolStripMenuItem.Text = "Ouvrir...";
-            this.ouvrirToolStripMenuItem.Click += new System.EventHandler(this.ouvrirToolStripMenuItem_Click);
+            this.printDialog1.UseEXDialog = true;
             // 
-            // timIdle
+            // groupBox1
             // 
-            this.timIdle.Interval = 300;
+            this.groupBox1.Controls.Add(this.btnValidateText);
+            this.groupBox1.Controls.Add(this.pnlText);
+            this.groupBox1.Location = new System.Drawing.Point(7, 290);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(76, 127);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Texte";
+            // 
+            // btnValidateText
+            // 
+            this.btnValidateText.Location = new System.Drawing.Point(6, 96);
+            this.btnValidateText.Name = "btnValidateText";
+            this.btnValidateText.Size = new System.Drawing.Size(67, 23);
+            this.btnValidateText.TabIndex = 8;
+            this.btnValidateText.Text = "Text";
+            this.btnValidateText.UseVisualStyleBackColor = true;
+            this.btnValidateText.Click += new System.EventHandler(this.btnValidateText_Click);
+            // 
+            // pnlText
+            // 
+            this.pnlText.BackColor = System.Drawing.Color.White;
+            this.pnlText.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlText.BackgroundImage")));
+            this.pnlText.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pnlText.Location = new System.Drawing.Point(8, 19);
+            this.pnlText.Name = "pnlText";
+            this.pnlText.Size = new System.Drawing.Size(32, 29);
+            this.pnlText.TabIndex = 6;
+            this.pnlText.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlText_MouseClick);
             // 
             // Painting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(839, 593);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.grpTools);
             this.Controls.Add(this.grpBxTools);
             this.Controls.Add(this.picDrawingZone);
@@ -270,6 +326,7 @@
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.grpTools.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -296,7 +353,13 @@
         private System.Windows.Forms.Panel pnlPencil;
         private System.Windows.Forms.Panel pnlEraser;
         private System.Windows.Forms.ToolStripMenuItem ouvrirToolStripMenuItem;
-        private System.Windows.Forms.Timer timIdle;
+        private System.Windows.Forms.PrintDialog printDialog1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Panel pnlText;
+        private System.Windows.Forms.Button btnValidateText;
+        private System.Windows.Forms.FontDialog fontDialog;
+        private System.Windows.Forms.ToolStripMenuItem policeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
     }
 }
 

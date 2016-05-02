@@ -13,3 +13,4 @@ H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETM
 H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML_Dessin.Properties.Resources.resources
 H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML-Dessin.csproj.GenerateResource.Cache
 H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML-Dessin.csprojResolveAssemblyReference.cache
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML_Dessin.Text.resources
