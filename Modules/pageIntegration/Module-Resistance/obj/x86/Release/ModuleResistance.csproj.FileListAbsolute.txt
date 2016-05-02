@@ -1,0 +1,7 @@
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\bin\Release\ModuleResistance.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\bin\Release\ModuleResistance.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\obj\x86\Release\Module_Resistance.FormResistance.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\obj\x86\Release\Module_Resistance.Properties.Resources.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\obj\x86\Release\ModuleResistance.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\obj\x86\Release\ModuleResistance.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\obj\x86\Release\ModuleResistance.pdb

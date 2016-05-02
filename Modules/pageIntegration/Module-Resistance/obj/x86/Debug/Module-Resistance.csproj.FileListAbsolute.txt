@@ -1,0 +1,21 @@
+C:\Users\favreju\AppData\Local\Temporary Projects\Module-Resistance\obj\x86\Debug\Module_Resistance.FormResistance.resources
+C:\Users\favreju\AppData\Local\Temporary Projects\Module-Resistance\obj\x86\Debug\Module_Resistance.Properties.Resources.resources
+C:\Users\favreju\AppData\Local\Temporary Projects\Module-Resistance\obj\x86\Debug\Module-Resistance.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\bin\Debug\Module-Resistance.exe
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\bin\Debug\Module-Resistance.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module_Resistance.FormResistance.resources
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module_Resistance.Properties.Resources.resources
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module-Resistance.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module-Resistance.exe
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module-Resistance.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module-Resistance.csprojResolveAssemblyReference.cache
+D:\DATA\dadiesa\PetitProjetInformatique\mResElectronique\Module-Resistance\obj\x86\Debug\Module-Resistance.exe
+D:\DATA\dadiesa\PetitProjetInformatique\mResElectronique\Module-Resistance\obj\x86\Debug\Module-Resistance.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\obj\x86\Debug\Module-Resistance.csprojResolveAssemblyReference.cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\obj\x86\Debug\Module_Resistance.FormResistance.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\obj\x86\Debug\Module_Resistance.Properties.Resources.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\obj\x86\Debug\Module-Resistance.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\bin\Debug\ModuleResistance.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\bin\Debug\ModuleResistance.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\obj\x86\Debug\ModuleResistance.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\Module-Resistance\obj\x86\Debug\ModuleResistance.pdb

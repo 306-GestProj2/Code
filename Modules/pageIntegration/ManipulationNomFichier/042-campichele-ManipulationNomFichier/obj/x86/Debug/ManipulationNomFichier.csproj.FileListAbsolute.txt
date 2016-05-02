@@ -1,0 +1,9 @@
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\ManipulationNomFichier\042-campichele-ManipulationNomFichier\bin\Debug\ManipulationNomFichier.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\ManipulationNomFichier\042-campichele-ManipulationNomFichier\bin\Debug\ManipulationNomFichier.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.fileManipulationForm.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\_042_campichele_ManipulationNomFichier.Properties.Resources.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\ManipulationNomFichier.csproj.GenerateResource.Cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\ManipulationNomFichier.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\ManipulationNomFichier.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0\ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\ManipulationNomFichier.exe
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0\ManipulationNomFichier\042-campichele-ManipulationNomFichier\obj\x86\Debug\ManipulationNomFichier.pdb
