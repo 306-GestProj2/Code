@@ -1,0 +1,24 @@
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.FormCalculFunction.resources
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.Properties.Resources.resources
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.csproj.GenerateResource.Cache
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.csprojResolveAssemblyReference.cache
+H:\FormCalculFunction\bin\Debug\FormCalculFunction.exe
+H:\FormCalculFunction\bin\Debug\FormCalculFunction.pdb
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.exe
+H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\FormCalculFunction\bin\Debug\FormCalculFunction.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\FormCalculFunction\bin\Debug\FormCalculFunction.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\FormCalculFunction\obj\x86\Debug\FormCalculFunction.csprojResolveAssemblyReference.cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\FormCalculFunction\obj\x86\Debug\FormCalculFunction.Properties.Resources.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\FormCalculFunction\obj\x86\Debug\FormCalculFunction.csproj.GenerateResource.Cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\FormCalculFunction\obj\x86\Debug\FormCalculFunction.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\FormCalculFunction\obj\x86\Debug\FormCalculFunction.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\FormCalculFunction\obj\x86\Debug\FormCalculFunction.CalculFunction.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\FormCalculFunction\bin\Debug\FormCalculFunction.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\FormCalculFunction\bin\Debug\FormCalculFunction.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\FormCalculFunction\obj\x86\Debug\FormCalculFunction.csprojResolveAssemblyReference.cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\FormCalculFunction\obj\x86\Debug\FormCalculFunction.CalculFunction.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\FormCalculFunction\obj\x86\Debug\FormCalculFunction.Properties.Resources.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\FormCalculFunction\obj\x86\Debug\FormCalculFunction.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\FormCalculFunction\obj\x86\Debug\FormCalculFunction.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\FormCalculFunction\obj\x86\Debug\FormCalculFunction.pdb

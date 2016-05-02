@@ -1,0 +1,9 @@
+C:\Users\eleve\Desktop\CalculFunctionSecondDegree\CalculFunctionSecondDegree\bin\Debug\CalculFunctionSecondDegree.exe.config
+C:\Users\eleve\Desktop\CalculFunctionSecondDegree\CalculFunctionSecondDegree\bin\Debug\CalculFunctionSecondDegree.exe
+C:\Users\eleve\Desktop\CalculFunctionSecondDegree\CalculFunctionSecondDegree\bin\Debug\CalculFunctionSecondDegree.pdb
+C:\Users\eleve\Desktop\CalculFunctionSecondDegree\CalculFunctionSecondDegree\obj\Debug\CalculFunctionSecondDegree.Properties.Resources.resources
+C:\Users\eleve\Desktop\CalculFunctionSecondDegree\CalculFunctionSecondDegree\obj\Debug\CalculFunctionSecondDegree.csproj.GenerateResource.Cache
+C:\Users\eleve\Desktop\CalculFunctionSecondDegree\CalculFunctionSecondDegree\obj\Debug\CalculFunctionSecondDegree.exe
+C:\Users\eleve\Desktop\CalculFunctionSecondDegree\CalculFunctionSecondDegree\obj\Debug\CalculFunctionSecondDegree.pdb
+C:\Users\eleve\Desktop\CalculFunctionSecondDegree\CalculFunctionSecondDegree\obj\Debug\CalculFunctionSecondDegree.FormCalculFunction.resources
+C:\Users\eleve\Desktop\CalculFunctionSecondDegree\CalculFunctionSecondDegree\obj\Debug\CalculFunctionSecondDegree.csprojResolveAssemblyReference.cache
