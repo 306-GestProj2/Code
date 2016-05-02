@@ -1,0 +1,10 @@
+D:\DATA\ReyQu\ReyQu-GestProj-ModuleStructure\bin\Release\GestProj-ModuleStructure.exe
+D:\DATA\ReyQu\ReyQu-GestProj-ModuleStructure\bin\Release\GestProj-ModuleStructure.pdb
+D:\DATA\ReyQu\ReyQu-GestProj-ModuleStructure\obj\x86\Release\GestProj-ModuleStructure.csprojResolveAssemblyReference.cache
+D:\DATA\ReyQu\ReyQu-GestProj-ModuleStructure\obj\x86\Release\ModuleStructure.ModuleStructure.resources
+D:\DATA\ReyQu\ReyQu-GestProj-ModuleStructure\obj\x86\Release\ModuleStructure.Properties.Resources.resources
+D:\DATA\ReyQu\ReyQu-GestProj-ModuleStructure\obj\x86\Release\GestProj-ModuleStructure.csproj.GenerateResource.Cache
+D:\DATA\ReyQu\ReyQu-GestProj-ModuleStructure\obj\x86\Release\GestProj-ModuleStructure.exe
+D:\DATA\ReyQu\ReyQu-GestProj-ModuleStructure\obj\x86\Release\GestProj-ModuleStructure.pdb
+D:\DATA\ReyQu\ReyQu-GestProj-ModuleStructureV1.0\obj\x86\Release\GestProj-ModuleStructure.exe
+D:\DATA\ReyQu\ReyQu-GestProj-ModuleStructureV1.0\obj\x86\Release\GestProj-ModuleStructure.pdb

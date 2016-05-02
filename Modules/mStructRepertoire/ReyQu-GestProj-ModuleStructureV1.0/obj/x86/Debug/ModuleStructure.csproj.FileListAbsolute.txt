@@ -1,0 +1,7 @@
+C:\Users\reyqu\AppData\Local\Temporary Projects\ModuleStructure\bin\Debug\ModuleStructure.exe
+C:\Users\reyqu\AppData\Local\Temporary Projects\ModuleStructure\bin\Debug\ModuleStructure.pdb
+C:\Users\reyqu\AppData\Local\Temporary Projects\ModuleStructure\obj\x86\Debug\ModuleStructure.Form1.resources
+C:\Users\reyqu\AppData\Local\Temporary Projects\ModuleStructure\obj\x86\Debug\ModuleStructure.Properties.Resources.resources
+C:\Users\reyqu\AppData\Local\Temporary Projects\ModuleStructure\obj\x86\Debug\ModuleStructure.csproj.GenerateResource.Cache
+C:\Users\reyqu\AppData\Local\Temporary Projects\ModuleStructure\obj\x86\Debug\ModuleStructure.exe
+C:\Users\reyqu\AppData\Local\Temporary Projects\ModuleStructure\obj\x86\Debug\ModuleStructure.pdb
