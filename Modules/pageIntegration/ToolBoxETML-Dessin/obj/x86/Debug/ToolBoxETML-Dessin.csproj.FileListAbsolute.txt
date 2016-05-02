@@ -1,0 +1,31 @@
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\bin\Debug\ToolBoxETML-Dessin.exe
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\bin\Debug\ToolBoxETML-Dessin.pdb
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.Properties.Resources.resources
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.csproj.GenerateResource.Cache
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.exe
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.pdb
+K:\INF\Eleves\Classes\CINa_14-18\PROJET TOOLBOX ETML\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.Painting.resources
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\bin\Debug\ToolBoxETML-Dessin.exe
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\bin\Debug\ToolBoxETML-Dessin.pdb
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.Painting.resources
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.Properties.Resources.resources
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.csproj.GenerateResource.Cache
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.exe
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.pdb
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.csprojResolveAssemblyReference.cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.csprojResolveAssemblyReference.cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.Painting.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.Properties.Resources.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.csproj.GenerateResource.Cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\bin\Debug\ToolBoxETML-Dessin.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\bin\Debug\ToolBoxETML-Dessin.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\bin\Debug\ToolBoxETML-Dessin.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\bin\Debug\ToolBoxETML-Dessin.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.csprojResolveAssemblyReference.cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.Painting.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.Properties.Resources.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.pdb

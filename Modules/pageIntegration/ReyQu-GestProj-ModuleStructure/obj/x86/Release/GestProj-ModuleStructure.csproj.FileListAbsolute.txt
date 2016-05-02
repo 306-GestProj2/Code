@@ -1,0 +1,14 @@
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\bin\Release\ModuleStructure.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\bin\Release\ModuleStructure.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\obj\x86\Release\ModuleStructure.ModuleStructureDossier.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\obj\x86\Release\ModuleStructure.Properties.Resources.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\obj\x86\Release\GestProj-ModuleStructure.csproj.GenerateResource.Cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\obj\x86\Release\ModuleStructure.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\obj\x86\Release\ModuleStructure.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\bin\Release\ModuleStructure.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\bin\Release\ModuleStructure.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\obj\x86\Release\ModuleStructure.ModuleStructureDossier.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\obj\x86\Release\ModuleStructure.Properties.Resources.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\obj\x86\Release\GestProj-ModuleStructure.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\obj\x86\Release\ModuleStructure.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\ReyQu-GestProj-ModuleStructure\obj\x86\Release\ModuleStructure.pdb
