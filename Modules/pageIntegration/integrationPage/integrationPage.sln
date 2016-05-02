@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "integrationPage", "integrationPage.csproj", "{DD6B0488-5724-48CD-A50F-84E1063D3307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormCalculFunction", "..\FormCalculFunction\FormCalculFunction.csproj", "{EE72DD15-FFCD-47EB-A15F-708741E1AF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestProj-ModuleStructure", "..\ReyQu-GestProj-ModuleStructure\GestProj-ModuleStructure.csproj", "{585E9455-59F5-467E-A73A-49EF166348A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolBoxETML-Dessin", "..\ToolBoxETML-Dessin\ToolBoxETML-Dessin.csproj", "{562E6FE6-CCBF-4B76-9A1E-73BB01EF0C04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleResistance", "..\Module-Resistance\ModuleResistance.csproj", "{F074AC40-43B0-4176-AB43-6BACC0F62066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManipulationNomFichier", "..\ManipulationNomFichier\042-campichele-ManipulationNomFichier\ManipulationNomFichier.csproj", "{7AC06B59-704C-42D5-92F5-E0059A5DC9AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD6B0488-5724-48CD-A50F-84E1063D3307}.Debug|x86.ActiveCfg = Debug|x86
+		{DD6B0488-5724-48CD-A50F-84E1063D3307}.Debug|x86.Build.0 = Debug|x86
+		{DD6B0488-5724-48CD-A50F-84E1063D3307}.Release|x86.ActiveCfg = Release|x86
+		{DD6B0488-5724-48CD-A50F-84E1063D3307}.Release|x86.Build.0 = Release|x86
+		{EE72DD15-FFCD-47EB-A15F-708741E1AF69}.Debug|x86.ActiveCfg = Debug|x86
+		{EE72DD15-FFCD-47EB-A15F-708741E1AF69}.Debug|x86.Build.0 = Debug|x86
+		{EE72DD15-FFCD-47EB-A15F-708741E1AF69}.Release|x86.ActiveCfg = Release|x86
+		{EE72DD15-FFCD-47EB-A15F-708741E1AF69}.Release|x86.Build.0 = Release|x86
+		{585E9455-59F5-467E-A73A-49EF166348A6}.Debug|x86.ActiveCfg = Debug|x86
+		{585E9455-59F5-467E-A73A-49EF166348A6}.Debug|x86.Build.0 = Debug|x86
+		{585E9455-59F5-467E-A73A-49EF166348A6}.Release|x86.ActiveCfg = Release|x86
+		{585E9455-59F5-467E-A73A-49EF166348A6}.Release|x86.Build.0 = Release|x86
+		{562E6FE6-CCBF-4B76-9A1E-73BB01EF0C04}.Debug|x86.ActiveCfg = Debug|x86
+		{562E6FE6-CCBF-4B76-9A1E-73BB01EF0C04}.Debug|x86.Build.0 = Debug|x86
+		{562E6FE6-CCBF-4B76-9A1E-73BB01EF0C04}.Release|x86.ActiveCfg = Release|x86
+		{562E6FE6-CCBF-4B76-9A1E-73BB01EF0C04}.Release|x86.Build.0 = Release|x86
+		{F074AC40-43B0-4176-AB43-6BACC0F62066}.Debug|x86.ActiveCfg = Debug|x86
+		{F074AC40-43B0-4176-AB43-6BACC0F62066}.Debug|x86.Build.0 = Debug|x86
+		{F074AC40-43B0-4176-AB43-6BACC0F62066}.Release|x86.ActiveCfg = Release|x86
+		{F074AC40-43B0-4176-AB43-6BACC0F62066}.Release|x86.Build.0 = Release|x86
+		{7AC06B59-704C-42D5-92F5-E0059A5DC9AB}.Debug|x86.ActiveCfg = Debug|x86
+		{7AC06B59-704C-42D5-92F5-E0059A5DC9AB}.Debug|x86.Build.0 = Debug|x86
+		{7AC06B59-704C-42D5-92F5-E0059A5DC9AB}.Release|x86.ActiveCfg = Release|x86
+		{7AC06B59-704C-42D5-92F5-E0059A5DC9AB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

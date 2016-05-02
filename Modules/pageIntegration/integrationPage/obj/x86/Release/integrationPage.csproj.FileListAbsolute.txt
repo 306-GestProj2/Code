@@ -1,0 +1,27 @@
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\obj\x86\Release\integrationPage.csprojResolveAssemblyReference.cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\obj\x86\Release\integrationPage.integrationPage.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\obj\x86\Release\integrationPage.Properties.Resources.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\obj\x86\Release\integrationPage.csproj.GenerateResource.Cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Release\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Release\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Release\FormCalculFunction.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Release\ManipulationNomFichier.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Release\ModuleStructure.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Release\ToolBoxETML-Dessin.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Release\ManipulationNomFichier.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Release\FormCalculFunction.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Release\ModuleStructure.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Release\ToolBoxETML-Dessin.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.csprojResolveAssemblyReference.cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.integrationPage.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.Properties.Resources.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.csproj.GenerateResource.Cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.pdb
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.exe
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.csprojResolveAssemblyReference.cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.integrationPage.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.Properties.Resources.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Release\integrationPage.exe

@@ -1,0 +1,136 @@
+H:\Application projet\PetitProjetInformatique\integrationPage\bin\Debug\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\integrationPage\bin\Debug\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\integrationPage\obj\x86\Debug\integrationPage.Properties.Resources.resources
+H:\Application projet\PetitProjetInformatique\integrationPage\obj\x86\Debug\integrationPage.csproj.GenerateResource.Cache
+H:\Application projet\PetitProjetInformatique\integrationPage\obj\x86\Debug\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\integrationPage\obj\x86\Debug\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\integrationPage\obj\x86\Debug\integrationPage.csprojResolveAssemblyReference.cache
+H:\Application projet\PetitProjetInformatique\integrationPage\obj\x86\Debug\integrationPage.integrationPage.resources
+H:\Application projet\PetitProjetInformatique\ToolBox\integrationPage\obj\x86\Debug\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\ToolBox\integrationPage\obj\x86\Debug\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox\integrationPage\obj\x86\Debug\integrationPage.csprojResolveAssemblyReference.cache
+H:\Application projet\PetitProjetInformatique\ToolBox\integrationPage\obj\x86\Debug\integrationPage.integrationPage.resources
+H:\Application projet\PetitProjetInformatique\ToolBox\integrationPage\obj\x86\Debug\integrationPage.Properties.Resources.resources
+H:\Application projet\PetitProjetInformatique\ToolBox\integrationPage\obj\x86\Debug\integrationPage.csproj.GenerateResource.Cache
+H:\Application projet\PetitProjetInformatique\ToolBox\integrationPage\bin\Debug\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\ToolBox\integrationPage\bin\Debug\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox\integrationPage\bin\Debug\ToolBoxETML-Dessin.exe
+H:\Application projet\PetitProjetInformatique\ToolBox\integrationPage\bin\Debug\ToolBoxETML-Dessin.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\bin\Debug\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\bin\Debug\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\bin\Debug\ToolBoxETML-Dessin.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\bin\Debug\ToolBoxETML-Dessin.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.csprojResolveAssemblyReference.cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.integrationPage.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.Properties.Resources.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.csproj.GenerateResource.Cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\bin\Debug\FormCalculFunction.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\bin\Debug\FormCalculFunction.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\bin\Debug\ModuleStructure.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\bin\Debug\ModuleStructure.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\bin\Debug\ManipulationNomFichier.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0\integrationPage\bin\Debug\ManipulationNomFichier.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\obj\x86\Debug\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\obj\x86\Debug\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\bin\Debug\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\bin\Debug\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\bin\Debug\FormCalculFunction.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\bin\Debug\ManipulationNomFichier.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\bin\Debug\ModuleStructure.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\bin\Debug\ToolBoxETML-Dessin.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\bin\Debug\ManipulationNomFichier.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\bin\Debug\FormCalculFunction.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\bin\Debug\ModuleStructure.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\bin\Debug\ToolBoxETML-Dessin.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\obj\x86\Debug\integrationPage.csprojResolveAssemblyReference.cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\obj\x86\Debug\integrationPage.integrationPage.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\obj\x86\Debug\integrationPage.Properties.Resources.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation\integrationPage\obj\x86\Debug\integrationPage.csproj.GenerateResource.Cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\FormCalculFunction.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ManipulationNomFichier.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ModuleStructure.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ToolBoxETML-Dessin.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ManipulationNomFichier.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\FormCalculFunction.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ModuleStructure.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ToolBoxETML-Dessin.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.csprojResolveAssemblyReference.cache
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.integrationPage.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.Properties.Resources.resources
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.csproj.GenerateResource.Cache
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\integrationPage.exe
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\integrationPage.pdb
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\FormCalculFunction.exe
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ManipulationNomFichier.exe
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ModuleStructure.exe
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ToolBoxETML-Dessin.exe
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ManipulationNomFichier.pdb
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\FormCalculFunction.pdb
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ModuleStructure.pdb
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ToolBoxETML-Dessin.pdb
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.csprojResolveAssemblyReference.cache
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.integrationPage.resources
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.Properties.Resources.resources
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.csproj.GenerateResource.Cache
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.exe
+C:\Users\dadiesa\Desktop\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.pdb
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.exe
+H:\Application projet\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.exe
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\integrationPage.exe
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\integrationPage.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\FormCalculFunction.exe
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ManipulationNomFichier.exe
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ModuleStructure.exe
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ToolBoxETML-Dessin.exe
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ManipulationNomFichier.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\FormCalculFunction.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ModuleStructure.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ToolBoxETML-Dessin.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.csprojResolveAssemblyReference.cache
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.integrationPage.resources
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.Properties.Resources.resources
+D:\DATA\dadiesa\PetitProjetInformatique\ToolBox 1.0.0 - Pour la Présentation\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\integrationPage.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\integrationPage.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\FormCalculFunction.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ManipulationNomFichier.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ModuleStructure.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ToolBoxETML-Dessin.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ManipulationNomFichier.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\FormCalculFunction.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ModuleStructure.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ToolBoxETML-Dessin.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.csprojResolveAssemblyReference.cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.integrationPage.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.Properties.Resources.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\obj\x86\Debug\integrationPage.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ModuleResistance.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0.0\ToolBox 1.0 - Pour la Présentation - Copie\integrationPage\bin\Debug\ModuleResistance.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.csprojResolveAssemblyReference.cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.integrationPage.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.Properties.Resources.resources
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\obj\x86\Debug\integrationPage.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\integrationPage.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\integrationPage.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\FormCalculFunction.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\ManipulationNomFichier.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\ModuleResistance.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\ModuleStructure.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\ToolBoxETML-Dessin.exe
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\FormCalculFunction.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\ManipulationNomFichier.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\ModuleResistance.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\ModuleStructure.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\pageIntergration\ToolBox 1.0\integrationPage\bin\Debug\ToolBoxETML-Dessin.pdb
