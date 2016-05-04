@@ -1,0 +1,106 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace Tire_balistique
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        bool textButton = false;
+
+        double GravEarth = -9.81;
+
+        double SpeedY;
+        double SpeedX;
+
+        double angle = 0;
+        double speed = 0;
+
+        double x, y;
+
+        const int SIZE_X = 670;
+        const int SIZE_Y = 445;
+
+
+        int X = 0;
+        
+
+        private void buttonStop_Click(object sender, EventArgs e)
+        {
+            if (textButton == false)
+            {
+                buttonStop.Text = "Pause";
+                textButton = true;
+                timerTemp.Start();
+            }
+            else
+            {
+                buttonStop.Text = "Départ";
+                textButton = false;
+                timerTemp.Stop();
+            }
+
+            
+        }
+
+        
+        //Timer 
+        private void timerTemp_Tick(object sender, EventArgs e)
+        {
+            x += 0.01;
+            int Y = panelDraw.Height;
+
+            //Vérifier que les cases soient bien ramplie 
+                if (textBoxDegrees.Text == "")
+                {
+                    textButton = true;
+                    textBoxDegrees.BackColor = Color.Red;
+                }
+                else
+                {
+                    textBoxDegrees.BackColor = Color.White;
+                    angle = Convert.ToDouble(textBoxDegrees.Text);
+                }
+
+                //Vérifier que les cases soient bien ramplie 
+                if (textBoxSpeed.Text == "")
+                {
+
+                    textBoxSpeed.BackColor = Color.Red;
+                }
+                else
+                {
+                    textBoxSpeed.BackColor = Color.White;
+                    speed = Convert.ToDouble(textBoxSpeed.Text);
+                }
+
+            //Création du graphique
+            Bitmap pen = new Bitmap(4, 4);
+            pen.SetPixel(0, 0, Color.Red);
+            System.Drawing.Graphics graphBali = panelDraw.CreateGraphics();
+
+            //Vy Calcul la vitesse montante
+            SpeedY = Math.Sin(Math.PI * (angle / 180)) * speed;
+
+            //Vx Calcul la vitesse horizontale
+            SpeedX = Math.Cos(Math.PI * (angle / 180)) * speed;
+
+            
+            y = SpeedY * x + ((0.5 * (GravEarth)) * (x * x));
+
+            
+            graphBali.DrawImageUnscaled(pen, X + Convert.ToInt32(SpeedX * x), Y - Convert.ToInt32(y));
+            
+        }
+    }
+}
