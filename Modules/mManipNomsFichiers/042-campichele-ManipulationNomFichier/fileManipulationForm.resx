@@ -119,9 +119,7 @@
   </resheader>
   <data name="tipsLabel.Text" xml:space="preserve">
     <value>Le compteur ajoutera des numéros dans l'ordre de sélection des fichiers
-(à gauche) et sera toujours en premier.
-
-La chaîne de caractères sera ajoutée au début du nom des fichiers.
+(à gauche) et sera toujours avant la chaine de caractères.
 
 Exemple:
 C:\Document.pdf

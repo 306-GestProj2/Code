@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Diagnostics;
+using System.Text.RegularExpressions;
 
 namespace _042_campichele_ManipulationNomFichier
 {
@@ -44,31 +45,60 @@ namespace _042_campichele_ManipulationNomFichier
                 //Get the NAME of the file (the last "token" of the table is obviously the name of the file (without the path))
                 string actualFileAfterSplit = tokens[tokens.Length - 1];
 
+                string extension;
+                string resultWithoutExt;
+                if (extCheckBox.Checked == false)
+                {
+                    extension = System.IO.Path.GetExtension(actualFileAfterSplit);
+                    resultWithoutExt = actualFileAfterSplit.Substring(0, actualFileAfterSplit.Length - extension.Length);
+                }
+                else
+                {
+                    extension = "";
+                    resultWithoutExt = actualFileAfterSplit;
+                }
+
+
                 string result = "";
                 if (typeTabControl.SelectedIndex == 0)
                 {
                     //replace the matched part of the string
-                    result = actualFileAfterSplit.Replace(strToChange, newTextReplaceTextBox.Text);
+                    result = resultWithoutExt.Replace(strToChange, newTextReplaceTextBox.Text);
                 }
                 else if (typeTabControl.SelectedIndex == 1)
                 {
                     //delet the matched part of the string
-                    result = actualFileAfterSplit.Replace(strToChange, "");
+                    result = resultWithoutExt.Replace(strToChange, "");
                 }
                 else if (typeTabControl.SelectedIndex == 2)
                 {
+
+
+                    int position;
+                    if (Convert.ToInt32(locationTextBox.Text) > resultWithoutExt.Length)
+                    {
+                        position = resultWithoutExt.Length;
+                    }
+                    else
+                    {
+                        position = Convert.ToInt32(locationTextBox.Text);
+                    }
+
                     //delet the add part to the string
                     if (counterCheckBox.Checked == true)
                     {
-                        result = addCounter + strToChange + actualFileAfterSplit;
+                        //result = addCounter + strToChange + actualFileAfterSplit; old
+                        result = resultWithoutExt.Insert(position, addCounter + strToChange);
                         addCounter++;
                     }
                     else
                     {
-                        result = strToChange + actualFileAfterSplit;
+                        //result = strToChange + actualFileAfterSplit; old
+                        result = resultWithoutExt.Insert(position, strToChange);
                     }
                 }
 
+                result = result + extension;
                 //MessageBox.Show(result);
                 //unsplit the full name with "tokens"
                 string finalToken = "";
@@ -348,6 +378,21 @@ namespace _042_campichele_ManipulationNomFichier
         }
 
         private void fileManipulationForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tipsLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void locationTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (!System.Text.RegularExpressions.Regex.IsMatch(locationTextBox.Text, "^[0-9]+$")) { locationTextBox.Text = "0"; };
+        }
+
+        private void extCheckBox_CheckedChanged(object sender, EventArgs e)
         {
 
         }

@@ -53,6 +53,9 @@
             this.resultGroupBox = new System.Windows.Forms.GroupBox();
             this.resultLabel = new System.Windows.Forms.RichTextBox();
             this.DisclamerButton = new System.Windows.Forms.Button();
+            this.locationLabel = new System.Windows.Forms.Label();
+            this.locationTextBox = new System.Windows.Forms.TextBox();
+            this.extCheckBox = new System.Windows.Forms.CheckBox();
             this.choosenFilesGroupBox.SuspendLayout();
             this.typeTabControl.SuspendLayout();
             this.replaceTabPage.SuspendLayout();
@@ -169,7 +172,7 @@
             this.typeTabControl.Location = new System.Drawing.Point(467, 12);
             this.typeTabControl.Name = "typeTabControl";
             this.typeTabControl.SelectedIndex = 0;
-            this.typeTabControl.Size = new System.Drawing.Size(423, 368);
+            this.typeTabControl.Size = new System.Drawing.Size(423, 346);
             this.typeTabControl.TabIndex = 10;
             // 
             // replaceTabPage
@@ -183,7 +186,7 @@
             this.replaceTabPage.Location = new System.Drawing.Point(4, 25);
             this.replaceTabPage.Name = "replaceTabPage";
             this.replaceTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.replaceTabPage.Size = new System.Drawing.Size(415, 339);
+            this.replaceTabPage.Size = new System.Drawing.Size(415, 317);
             this.replaceTabPage.TabIndex = 0;
             this.replaceTabPage.Text = "Remplacement";
             // 
@@ -195,7 +198,7 @@
             this.deletTabPage.Location = new System.Drawing.Point(4, 25);
             this.deletTabPage.Name = "deletTabPage";
             this.deletTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.deletTabPage.Size = new System.Drawing.Size(415, 339);
+            this.deletTabPage.Size = new System.Drawing.Size(415, 317);
             this.deletTabPage.TabIndex = 1;
             this.deletTabPage.Text = "Suppression";
             this.deletTabPage.UseVisualStyleBackColor = true;
@@ -220,6 +223,8 @@
             // addTabPage
             // 
             this.addTabPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.addTabPage.Controls.Add(this.locationTextBox);
+            this.addTabPage.Controls.Add(this.locationLabel);
             this.addTabPage.Controls.Add(this.counterCheckBox);
             this.addTabPage.Controls.Add(this.tipsAddGroupBox);
             this.addTabPage.Controls.Add(this.addTextBox);
@@ -227,7 +232,7 @@
             this.addTabPage.Location = new System.Drawing.Point(4, 25);
             this.addTabPage.Name = "addTabPage";
             this.addTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.addTabPage.Size = new System.Drawing.Size(415, 339);
+            this.addTabPage.Size = new System.Drawing.Size(415, 317);
             this.addTabPage.TabIndex = 2;
             this.addTabPage.Text = "Ajout";
             this.addTabPage.UseVisualStyleBackColor = true;
@@ -249,7 +254,7 @@
             this.tipsAddGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tipsAddGroupBox.Location = new System.Drawing.Point(9, 191);
             this.tipsAddGroupBox.Name = "tipsAddGroupBox";
-            this.tipsAddGroupBox.Size = new System.Drawing.Size(398, 140);
+            this.tipsAddGroupBox.Size = new System.Drawing.Size(398, 118);
             this.tipsAddGroupBox.TabIndex = 12;
             this.tipsAddGroupBox.TabStop = false;
             this.tipsAddGroupBox.Text = "Astuce :";
@@ -260,9 +265,10 @@
             this.tipsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tipsLabel.Location = new System.Drawing.Point(7, 20);
             this.tipsLabel.Name = "tipsLabel";
-            this.tipsLabel.Size = new System.Drawing.Size(343, 117);
+            this.tipsLabel.Size = new System.Drawing.Size(343, 91);
             this.tipsLabel.TabIndex = 0;
             this.tipsLabel.Text = resources.GetString("tipsLabel.Text");
+            this.tipsLabel.Click += new System.EventHandler(this.tipsLabel_Click);
             // 
             // addTextBox
             // 
@@ -313,12 +319,43 @@
             this.DisclamerButton.UseVisualStyleBackColor = true;
             this.DisclamerButton.Click += new System.EventHandler(this.DisclamerButton_Click);
             // 
+            // locationLabel
+            // 
+            this.locationLabel.AutoSize = true;
+            this.locationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.locationLabel.Location = new System.Drawing.Point(6, 141);
+            this.locationLabel.Name = "locationLabel";
+            this.locationLabel.Size = new System.Drawing.Size(74, 13);
+            this.locationLabel.TabIndex = 14;
+            this.locationLabel.Text = "Position N°:";
+            // 
+            // locationTextBox
+            // 
+            this.locationTextBox.Location = new System.Drawing.Point(86, 138);
+            this.locationTextBox.Name = "locationTextBox";
+            this.locationTextBox.Size = new System.Drawing.Size(46, 20);
+            this.locationTextBox.TabIndex = 15;
+            this.locationTextBox.Text = "0";
+            this.locationTextBox.TextChanged += new System.EventHandler(this.locationTextBox_TextChanged);
+            // 
+            // extCheckBox
+            // 
+            this.extCheckBox.AutoSize = true;
+            this.extCheckBox.Location = new System.Drawing.Point(481, 364);
+            this.extCheckBox.Name = "extCheckBox";
+            this.extCheckBox.Size = new System.Drawing.Size(219, 17);
+            this.extCheckBox.TabIndex = 13;
+            this.extCheckBox.Text = "Cocher pour gérer l\'extension des fichiers";
+            this.extCheckBox.UseVisualStyleBackColor = true;
+            this.extCheckBox.CheckedChanged += new System.EventHandler(this.extCheckBox_CheckedChanged);
+            // 
             // fileManipulationForm
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(901, 577);
+            this.Controls.Add(this.extCheckBox);
             this.Controls.Add(this.DisclamerButton);
             this.Controls.Add(this.resultGroupBox);
             this.Controls.Add(this.typeTabControl);
@@ -345,6 +382,7 @@
             this.tipsAddGroupBox.PerformLayout();
             this.resultGroupBox.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -374,6 +412,9 @@
         private System.Windows.Forms.CheckBox counterCheckBox;
         private System.Windows.Forms.RichTextBox resultLabel;
         private System.Windows.Forms.Button DisclamerButton;
+        private System.Windows.Forms.TextBox locationTextBox;
+        private System.Windows.Forms.Label locationLabel;
+        private System.Windows.Forms.CheckBox extCheckBox;
     }
 }
 
