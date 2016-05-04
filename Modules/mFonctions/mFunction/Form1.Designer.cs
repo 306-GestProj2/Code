@@ -37,10 +37,19 @@
             this.label3 = new System.Windows.Forms.Label();
             this.TextBoxValueC = new System.Windows.Forms.TextBox();
             this.ButtonValidate = new System.Windows.Forms.Button();
+            this.lblmaxY = new System.Windows.Forms.Label();
+            this.lblminY = new System.Windows.Forms.Label();
+            this.lblminX = new System.Windows.Forms.Label();
+            this.lblmaxX = new System.Windows.Forms.Label();
+            this.DrawPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // DrawPanel
             // 
+            this.DrawPanel.Controls.Add(this.lblmaxX);
+            this.DrawPanel.Controls.Add(this.lblminX);
+            this.DrawPanel.Controls.Add(this.lblminY);
+            this.DrawPanel.Controls.Add(this.lblmaxY);
             this.DrawPanel.Location = new System.Drawing.Point(12, 91);
             this.DrawPanel.Name = "DrawPanel";
             this.DrawPanel.Size = new System.Drawing.Size(841, 418);
@@ -109,6 +118,40 @@
             this.ButtonValidate.UseVisualStyleBackColor = true;
             this.ButtonValidate.Click += new System.EventHandler(this.ButtonValidate_Click);
             // 
+            // lblmaxY
+            // 
+            this.lblmaxY.AutoSize = true;
+            this.lblmaxY.Location = new System.Drawing.Point(381, 8);
+            this.lblmaxY.Name = "lblmaxY";
+            this.lblmaxY.Size = new System.Drawing.Size(0, 13);
+            this.lblmaxY.TabIndex = 0;
+            // 
+            // lblminY
+            // 
+            this.lblminY.AutoSize = true;
+            this.lblminY.Location = new System.Drawing.Point(377, 392);
+            this.lblminY.Name = "lblminY";
+            this.lblminY.Size = new System.Drawing.Size(0, 13);
+            this.lblminY.TabIndex = 1;
+            // 
+            // lblminX
+            // 
+            this.lblminX.AutoSize = true;
+            this.lblminX.Location = new System.Drawing.Point(3, 190);
+            this.lblminX.Name = "lblminX";
+            this.lblminX.Size = new System.Drawing.Size(25, 13);
+            this.lblminX.TabIndex = 2;
+            this.lblminX.Text = "- 10";
+            // 
+            // lblmaxX
+            // 
+            this.lblmaxX.AutoSize = true;
+            this.lblmaxX.Location = new System.Drawing.Point(819, 190);
+            this.lblmaxX.Name = "lblmaxX";
+            this.lblmaxX.Size = new System.Drawing.Size(19, 13);
+            this.lblmaxX.TabIndex = 3;
+            this.lblmaxX.Text = "10";
+            // 
             // FormCalculFunction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -126,6 +169,8 @@
             this.Name = "FormCalculFunction";
             this.Text = "Module de création de fonctions du 2ème degrès par voie graphique";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormCalculFunction_FormClosing);
+            this.DrawPanel.ResumeLayout(false);
+            this.DrawPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -141,6 +186,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox TextBoxValueC;
         private System.Windows.Forms.Button ButtonValidate;
+        private System.Windows.Forms.Label lblmaxY;
+        private System.Windows.Forms.Label lblmaxX;
+        private System.Windows.Forms.Label lblminX;
+        private System.Windows.Forms.Label lblminY;
     }
 }
 

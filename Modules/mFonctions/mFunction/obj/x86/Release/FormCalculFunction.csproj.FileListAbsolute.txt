@@ -5,3 +5,10 @@ H:\FormCalculFunction\obj\x86\Release\FormCalculFunction.Properties.Resources.re
 H:\FormCalculFunction\obj\x86\Release\FormCalculFunction.csproj.GenerateResource.Cache
 H:\FormCalculFunction\obj\x86\Release\FormCalculFunction.exe
 H:\FormCalculFunction\obj\x86\Release\FormCalculFunction.pdb
+H:\mFunction - Copie\bin\Release\FormCalculFunction.exe
+H:\mFunction - Copie\bin\Release\FormCalculFunction.pdb
+H:\mFunction - Copie\obj\x86\Release\FormCalculFunction.FormCalculFunction.resources
+H:\mFunction - Copie\obj\x86\Release\FormCalculFunction.Properties.Resources.resources
+H:\mFunction - Copie\obj\x86\Release\FormCalculFunction.csproj.GenerateResource.Cache
+H:\mFunction - Copie\obj\x86\Release\FormCalculFunction.exe
+H:\mFunction - Copie\obj\x86\Release\FormCalculFunction.pdb

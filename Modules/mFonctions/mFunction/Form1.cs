@@ -32,7 +32,7 @@ namespace FormCalculFunction
             Point origo = new Point(origo_x,origo_y);
 
             Bitmap pen = new Bitmap(1, 1);
-            pen.SetPixel(0, 0, Color.Black);
+            pen.SetPixel(0, 0, Color.Blue);
             System.Drawing.Graphics g = DrawPanel.CreateGraphics();
 
             if (TextBoxValueA.Text == "" || TextBoxValueB.Text == "" || TextBoxValueC.Text == "")
@@ -41,15 +41,18 @@ namespace FormCalculFunction
             }
             else
             {
+                //ValueA = Convert.ToDouble(TextBoxValueA.Text) * (-1);
+                //ValueB = Convert.ToDouble(TextBoxValueB.Text) * (-1);
+                //ValueC = Convert.ToDouble(TextBoxValueC.Text) * (-1);
                 ValueA = Convert.ToDouble(TextBoxValueA.Text);
                 ValueB = Convert.ToDouble(TextBoxValueB.Text);
                 ValueC = Convert.ToDouble(TextBoxValueC.Text);
 
-                if (ValueA >= -10 || ValueA <= 10)
+                if (ValueA >= -10 && ValueA <= 10)
                 {
-                    if (ValueB >= -10 || ValueB <= 10)
+                    if (ValueB >= -10 && ValueB <= 10)
                     {
-                        if (ValueC >= -10 || ValueC <= 10)
+                        if (ValueC >= -10 && ValueC <= 10)
                         {
 
                         }
@@ -68,32 +71,88 @@ namespace FormCalculFunction
                     MessageBox.Show("Veuiller entrer une valeur comprise entre -10 et 10");
                 }
 
-                if ((Math.Pow(ValueB, 2) - (4 * ValueA * ValueC)) / (2 * ValueA) < 0) // Check if the discriminant is positiv
-                {
-                    FirstX = (-ValueB + Math.Sqrt(Math.Pow(ValueB, 2) - (4 * ValueA * ValueC))) / (2 * ValueA);
-                    SecondX = (-ValueB - Math.Sqrt(Math.Pow(ValueB, 2) - (4 * ValueA * ValueC))) / (2 * ValueA);
-                }
-                else if ((Math.Pow(ValueB, 2) - (4 * ValueA * ValueC)) / (2 * ValueA) == 0) // check if the discriminant is neutral
-                {
-                    FirstX = SecondX = -(ValueB / (2 * ValueA));
-                }
-                else
-                {
+                //if ((Math.Pow(ValueB, 2) - (4 * ValueA * ValueC)) / (2 * ValueA) < 0) // Check if the discriminant is positiv
+                //{
+                //    FirstX = (-ValueB + Math.Sqrt(Math.Pow(ValueB, 2) - (4 * ValueA * ValueC))) / (2 * ValueA);
+                //    SecondX = (-ValueB - Math.Sqrt(Math.Pow(ValueB, 2) - (4 * ValueA * ValueC))) / (2 * ValueA);
+                //}
+                //else if ((Math.Pow(ValueB, 2) - (4 * ValueA * ValueC)) / (2 * ValueA) == 0) // check if the discriminant is neutral
+                //{
+                //    FirstX = SecondX = -(ValueB / (2 * ValueA));
+                //}
+                //else
+                //{
 
-                }
+                //}
 
-                for (double i = -100.0; i <= 100; i += 0.1)
+                //Début tableau
+                Double[,] storePoint = new Double[201,2];
+
+                double minY = 0;
+                double maxY = 0;
+
+                //store
+                for (double j = 0, i = -10; i <= 10 && j < 201; i+= 0.1, j++)
                 {
                     FirstX = i;
                     FirstY = (ValueA * (FirstX * FirstX)) + ((ValueB * FirstX) + ValueC);
-                    Point newpoint = new Point((int)FirstX,(int)FirstY);
+                    storePoint[(int)j, 0] = FirstX;
+                    storePoint[(int)j, 1] = FirstY;
 
                     //g.DrawImageUnscaled(pen, origo_x + (int)FirstX, origo_y - (int)FirstY);
                     //g.DrawImageUnscaled(pen, origo_x - (int)FirstX, origo_y - (int)FirstY);
-                    g.DrawImageUnscaled(pen,origo);
+
+                    if (maxY < storePoint[(int)j, 1] && storePoint[(int)j, 1] > 0)
+                    {
+                        maxY = storePoint[(int)j, 1];
+                    }
+                    if (minY > storePoint[(int)j, 1] && storePoint[(int)j, 1] < 0)
+                    {
+                        minY = storePoint[(int)j, 1];
+                    }
+
+
+                }
+                
+
+                if (Math.Abs(minY) > Math.Abs(maxY))
+                {
+                    maxY = minY;
+                }
+
+                double MaxYValue = maxY;
+                MaxYValue = Math.Round(maxY);
+
+                if (MaxYValue < 0)
+                {
+                    lblmaxY.Text = Convert.ToString(MaxYValue * (-1));
+                    lblminY.Text = Convert.ToString(MaxYValue);
+                }
+                else if (MaxYValue > 0)
+                {
+                    lblmaxY.Text = Convert.ToString(MaxYValue);
+                    lblminY.Text = "- " + Convert.ToString(MaxYValue);
+                }
+                maxY = Math.Abs(origo_y / maxY);
+
+
+
+
+                //Draw
+                for (int i = 0; i <= 200; i++)
+                {
+                    Point newpoint = new Point((int)((storePoint[i, 0] + 10) * (origo.X / 10)), 
+                                               (int)(origo_y - (maxY * storePoint[i, 1])));
+
+                    //g.DrawImageUnscaled(pen, origo_x + (int)FirstX, origo_y - (int)FirstY);
+                    //g.DrawImageUnscaled(pen, origo_x - (int)FirstX, origo_y - (int)FirstY);
+                    //g.DrawImageUnscaled(pen, origo);
                     g.DrawImageUnscaled(pen, newpoint);
+                    
                 }
             }
+
+            
         }
 
         private void FormCalculFunction_FormClosing(object sender, FormClosingEventArgs e)

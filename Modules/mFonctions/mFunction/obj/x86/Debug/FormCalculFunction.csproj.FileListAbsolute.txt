@@ -6,3 +6,19 @@ H:\FormCalculFunction\bin\Debug\FormCalculFunction.exe
 H:\FormCalculFunction\bin\Debug\FormCalculFunction.pdb
 H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.exe
 H:\FormCalculFunction\obj\x86\Debug\FormCalculFunction.pdb
+H:\mFunction\obj\x86\Debug\FormCalculFunction.exe
+H:\mFunction\obj\x86\Debug\FormCalculFunction.pdb
+H:\mFunction\bin\Debug\FormCalculFunction.exe
+H:\mFunction\bin\Debug\FormCalculFunction.pdb
+H:\mFunction\obj\x86\Debug\FormCalculFunction.csprojResolveAssemblyReference.cache
+H:\mFunction\obj\x86\Debug\FormCalculFunction.FormCalculFunction.resources
+H:\mFunction\obj\x86\Debug\FormCalculFunction.Properties.Resources.resources
+H:\mFunction\obj\x86\Debug\FormCalculFunction.csproj.GenerateResource.Cache
+H:\mFunction - Copie\obj\x86\Debug\FormCalculFunction.exe
+H:\mFunction - Copie\obj\x86\Debug\FormCalculFunction.pdb
+H:\mFunction - Copie\obj\x86\Debug\FormCalculFunction.csprojResolveAssemblyReference.cache
+H:\mFunction - Copie\obj\x86\Debug\FormCalculFunction.FormCalculFunction.resources
+H:\mFunction - Copie\obj\x86\Debug\FormCalculFunction.Properties.Resources.resources
+H:\mFunction - Copie\obj\x86\Debug\FormCalculFunction.csproj.GenerateResource.Cache
+H:\mFunction - Copie\bin\Debug\FormCalculFunction.exe
+H:\mFunction - Copie\bin\Debug\FormCalculFunction.pdb
