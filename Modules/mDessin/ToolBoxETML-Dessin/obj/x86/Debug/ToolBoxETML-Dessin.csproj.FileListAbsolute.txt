@@ -14,3 +14,4 @@ H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETM
 H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.pdb
 H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML-Dessin.csprojResolveAssemblyReference.cache
 H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.Text.resources
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Debug\ToolBoxETML_Dessin.About.resources

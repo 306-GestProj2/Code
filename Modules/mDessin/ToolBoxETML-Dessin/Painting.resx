@@ -260,13 +260,10 @@
         9ArW4AQ38VCh6JPb+nMy3f/XX1/oV2BHu+JDz0jrfwwnM1/9H8L1AAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="printDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>236, 17</value>
-  </metadata>
   <data name="pnlText.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAArwAAAK8CAYAAAANumxDAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
-        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACw4AAAsOAUC+4UEAACMWSURBVHhe7d190O95XddxuYcF
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAACMWSURBVHhe7d190O95XddxuYcF
         gQFrSBFFkZBAJLMGplAQsZym0tIwHF1NgoLiLoZCEA1DZChoSCQMCRFhkzBuErVEVIYxi6nQoBGC8oZc
         CUSR+wV6f7cjfHfP6+yes3vO+/q+P+fxnHn883LZPXud6zu/t2ev63d9xic/+UkAAFhWHAEAYBVxBACA
         VcQRAABWEUcAAFhFHAEAYBVxBACAVcQRAABWEUcAAFhFHAEAYBVxBACAVcQRAABWEUcAAFhFHAEAYBVx
@@ -420,7 +417,10 @@
 </value>
   </data>
   <metadata name="fontDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>348, 21</value>
+    <value>237, 28</value>
+  </metadata>
+  <metadata name="timAntiBug.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>346, 28</value>
   </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

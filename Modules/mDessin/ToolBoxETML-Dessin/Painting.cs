@@ -17,6 +17,7 @@ namespace ToolBoxETML_Dessin
         private SolidBrush eraser;
         private Pen lePen;
         private Graphics myGraphics;
+        private Graphics recoveryGraphics;
         private bool isDrawing = false;
         private string stateTool = "pen";
         private bool blnSave = true;
@@ -26,6 +27,8 @@ namespace ToolBoxETML_Dessin
         Text formText = new Text();
         private int intX;
         private int intY;
+        private int nbOfTicks = 0;
+        About About = new About();
 
         public Painting()
         {
@@ -172,14 +175,12 @@ namespace ToolBoxETML_Dessin
 
         private void picDrawingZone_Click(object sender, EventArgs e)
         {
-            if (stateTool == "text")
-            {
-                if (txtToAdd != null)
-                    myGraphics.DrawString(txtToAdd, new Font(selectedFont, selectedSize), myBrush, new Point(intX, intY));
-                txtToAdd = null;
-                intX = 0;
-                intY = 0;
-            }
+            //MessageBox.Show("X: " + intX.ToString() + " // Y: " + intY.ToString() + " // Texte: " + txtToAdd);
+
+                if (stateTool == "text")
+                {
+                    timAntiBug.Enabled = true;
+                }
         }
 
         private void btnValidateText_Click(object sender, EventArgs e)
@@ -203,6 +204,76 @@ namespace ToolBoxETML_Dessin
                 selectedFont = Convert.ToString(fontDialog.Font.Name);
                 selectedSize = Convert.ToInt32(fontDialog.Font.Size);
             }
-        }            
+        }
+
+        private void DrawText()
+        {
+                if (txtToAdd != null)
+                    TextRenderer.DrawText(myGraphics, txtToAdd, new Font(selectedFont, selectedSize), new Point(intX, intY), lblColor.BackColor);
+                //myGraphics.DrawString(txtToAdd, new Font(selectedFont, selectedSize), myBrush, new Point(intX, intY));  
+                txtToAdd = null;
+                intX = 0;
+                intY = 0;
+                nbOfTicks = 0;
+                timAntiBug.Enabled = false;
+        }
+
+        private void timAntiBug_Tick(object sender, EventArgs e)
+        {
+            nbOfTicks++;
+
+            if (nbOfTicks == 1)
+            {
+                DrawText();
+            }
+        }
+
+        private void pleinÉcranToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (this.TopMost == false)
+            {
+                this.FormBorderStyle = FormBorderStyle.None;
+                this.TopMost = true;
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                this.FormBorderStyle = FormBorderStyle.Sizable;
+                this.TopMost = false;
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void aProposToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            About.ShowDialog();
+        }
+
+        private void sombreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Gray;
+            
+            grpBxTools.BackColor = Color.Gray;
+            grpTools.BackColor = Color.Gray;
+            menuStrip.BackColor = Color.Gray;
+            
+            menuStrip.ForeColor = Color.White;
+            grpBxTools.ForeColor = Color.White;
+            grpTools.ForeColor = Color.White;
+
+        }
+
+        private void normalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = btnValidateText.BackColor;
+
+            grpBxTools.BackColor = Color.Gray;
+            grpTools.BackColor = Color.Gray;
+            menuStrip.BackColor = Color.Gray;
+
+            menuStrip.ForeColor = Color.White;
+            grpBxTools.ForeColor = Color.White;
+            grpTools.ForeColor = Color.White;
+        }
     }
 }
