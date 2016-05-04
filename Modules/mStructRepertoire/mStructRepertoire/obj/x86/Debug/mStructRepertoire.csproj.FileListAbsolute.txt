@@ -1,0 +1,2 @@
+D:\DATA\ReyQu\mStructRepertoire\obj\x86\Debug\GestProj-ModuleStructure.exe
+D:\DATA\ReyQu\mStructRepertoire\obj\x86\Debug\GestProj-ModuleStructure.pdb

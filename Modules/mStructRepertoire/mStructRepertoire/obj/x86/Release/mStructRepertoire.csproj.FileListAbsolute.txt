@@ -1,0 +1,8 @@
+D:\DATA\ReyQu\mStructRepertoire\bin\Release\GestProj-ModuleStructure.exe
+D:\DATA\ReyQu\mStructRepertoire\bin\Release\GestProj-ModuleStructure.pdb
+D:\DATA\ReyQu\mStructRepertoire\obj\x86\Release\mStructRepertoire.csprojResolveAssemblyReference.cache
+D:\DATA\ReyQu\mStructRepertoire\obj\x86\Release\ModuleStructure.ModuleStructure.resources
+D:\DATA\ReyQu\mStructRepertoire\obj\x86\Release\ModuleStructure.Properties.Resources.resources
+D:\DATA\ReyQu\mStructRepertoire\obj\x86\Release\mStructRepertoire.csproj.GenerateResource.Cache
+D:\DATA\ReyQu\mStructRepertoire\obj\x86\Release\GestProj-ModuleStructure.exe
+D:\DATA\ReyQu\mStructRepertoire\obj\x86\Release\GestProj-ModuleStructure.pdb
