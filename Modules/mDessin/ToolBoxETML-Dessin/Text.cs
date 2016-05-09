@@ -1,4 +1,11 @@
-﻿using System;
+﻿//
+// Auteur : Loïc Berdoz
+// Résumé : Ceci est la fenêtre qui permet à l'utilisateur d'écrire du texte sur le dessin 
+// Date  : 12.04.2016
+// ETML
+//
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +22,10 @@ namespace ToolBoxETML_Dessin
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// Retourne le texte entré dans la textBox
+        /// </summary>
+        /// <returns></returns>
         public string ReturnText()
         {
             return richTextBox1.Text;

@@ -1,4 +1,11 @@
-﻿using System;
+﻿//
+// Auteur : Loïc Berdoz
+// Résumé : Ceci est la fenêtre d'informations sur le programme.
+// Date  : 12.04.2016
+// ETML
+//
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
