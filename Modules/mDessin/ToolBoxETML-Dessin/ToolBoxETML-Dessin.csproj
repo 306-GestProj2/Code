@@ -52,6 +52,12 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="myFontPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="myFontPicker.Designer.cs">
+      <DependentUpon>myFontPicker.cs</DependentUpon>
+    </Compile>
     <Compile Include="Painting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     </Compile>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="myFontPicker.resx">
+      <DependentUpon>myFontPicker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Painting.resx">
       <DependentUpon>Painting.cs</DependentUpon>

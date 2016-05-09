@@ -28,15 +28,17 @@ namespace ToolBoxETML_Dessin
         private bool isDrawing = false;                    //
         private string stateTool = "pen";                    //
         private bool blnSave = true;                            //--------- Déclaration des variables / objets
-        private string txtToAdd = null;                      //
-        private string selectedFont = "Arial";             //
-        private int selectedSize = 12;                   //
+        private string txtToAdd = null;                        //
+        //private string selectedFont = "Arial";             //
+        //private int selectedSize = 12;                   //
         Text formText = new Text();                      //
         private int intX;                                //
         private int intY;                                //
         private int nbOfTicks = 0;                       //
         About About = new About();                       //
         Color clrForm;                                   //
+        Font myFont;                                     //
+        myFontPicker fontPicker = new myFontPicker();    //
         /////////////////////////////////////////////////
 
         public Painting()
@@ -49,6 +51,7 @@ namespace ToolBoxETML_Dessin
             eraser = new SolidBrush(Color.White);
             lePen = new Pen(Color.White);
             clrForm = this.BackColor;
+
         }
         /// <summary>
         /// Affiche une fenêtre pour changer la couleur du pinceau / texte quand l'utilisateur clique sur le rectangle de couleur
@@ -273,11 +276,19 @@ namespace ToolBoxETML_Dessin
         /// <param name="e"></param>
         private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (fontDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            //fontDialog.ShowDialog();
+            //if(fontDialog  System.Windows.Forms.DialogResult.OK)
+            //{
+            //    myFont = fontDialog.Font;
+            //    //selectedfont = convert.tostring(fontdialog.font.name);
+            //    //selectedsize = convert.toint32(fontdialog.font.size);
+            //}
+            if (fontPicker.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                selectedFont = Convert.ToString(fontDialog.Font.Name);
-                selectedSize = Convert.ToInt32(fontDialog.Font.Size);
+                myFont = fontPicker.returnFont();
             }
+
+           
         }
 
         /// <summary>
@@ -285,14 +296,16 @@ namespace ToolBoxETML_Dessin
         /// </summary>
         private void DrawText()
         {
-                if (txtToAdd != null || txtToAdd != "")
-                    TextRenderer.DrawText(myGraphics, txtToAdd, new Font(selectedFont, selectedSize), new Point(intX, intY), lblColor.BackColor);
-                //myGraphics.DrawString(txtToAdd, new Font(selectedFont, selectedSize), myBrush, new Point(intX, intY));  
-                txtToAdd = null;
-                intX = 0;
-                intY = 0;
-                nbOfTicks = 0;
-                timAntiBug.Enabled = false;
+            if (txtToAdd != null)
+            {
+                TextRenderer.DrawText(myGraphics, txtToAdd, myFont, new Point(intX, intY), lblColor.BackColor);
+            }
+            //myGraphics.DrawString(txtToAdd, new Font(selectedFont, selectedSize), myBrush, new Point(intX, intY));  
+            txtToAdd = null;
+            intX = 0;
+            intY = 0;
+            nbOfTicks = 0;
+            timAntiBug.Enabled = false;
         }
         /// <summary>
         /// Incrémente nbOfTicks à chaque Tick du timer et si nbOfticks = 1, appelle la méthode DrawText.
