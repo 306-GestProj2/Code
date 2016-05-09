@@ -243,14 +243,31 @@ namespace Tire_balistique
             labelMaxLenght.Text = Convert.ToString(Math.Round(lenght, 2));
         }
 
+        /// <summary>
+        /// Empéche l'utilisateur de mettre des lettres ou des nombres trop élevé
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void textBoxDegrees_TextChanged(object sender, EventArgs e)
         {
-            if (!System.Text.RegularExpressions.Regex.IsMatch(textBoxDegrees.Text, "^[0-9]+$")) { textBoxDegrees.Text = "0"; }
+           
+            if (!System.Text.RegularExpressions.Regex.IsMatch(textBoxDegrees.Text, "^[0-9]{1,2}$")) 
+            {
+                textBoxDegrees.Text = "0"; 
+            }
         }
 
+        /// <summary>
+        /// Empéche l'utilisateur de mettre des lettres ou des nombres trop élevé
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void textBoxSpeed_TextChanged(object sender, EventArgs e)
         {
-            if (!System.Text.RegularExpressions.Regex.IsMatch(textBoxSpeed.Text, "^[0-9]+$")) { textBoxSpeed.Text = "0"; }
+            if (!System.Text.RegularExpressions.Regex.IsMatch(textBoxSpeed.Text, "^[0-9]{1,4}$")) 
+            { 
+                textBoxSpeed.Text = "0"; 
+            }
         }
     }
 }
