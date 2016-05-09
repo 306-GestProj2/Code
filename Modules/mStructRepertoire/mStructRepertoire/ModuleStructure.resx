@@ -117,19 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HelpLbl.Text" xml:space="preserve">
-    <value>Ceci est l'endroit ou vous devez entrer 
-l'arborescence désirée
-
-Vous pouvez copier votre arborescence
-depuis MS Excel ou avec 
-tout programme, dans la zone.
-
-Si vous désirez la créer directement, 
-utilisez la combinaison
-"Ctrl" + "tab" pour faire les 
-tabulations</value>
-  </data>
   <metadata name="SearchFileFBDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

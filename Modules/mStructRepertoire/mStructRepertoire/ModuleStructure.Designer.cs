@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModuleStructure));
             this.TextZonegrpBx = new System.Windows.Forms.GroupBox();
             this.FolderStructureRichTxtB = new System.Windows.Forms.RichTextBox();
             this.SearchFileGrpBx = new System.Windows.Forms.GroupBox();
@@ -109,11 +108,13 @@
             // HelpLbl
             // 
             this.HelpLbl.AutoSize = true;
-            this.HelpLbl.Location = new System.Drawing.Point(3, 16);
+            this.HelpLbl.Location = new System.Drawing.Point(11, 16);
             this.HelpLbl.Name = "HelpLbl";
-            this.HelpLbl.Size = new System.Drawing.Size(196, 143);
+            this.HelpLbl.Size = new System.Drawing.Size(190, 91);
             this.HelpLbl.TabIndex = 0;
-            this.HelpLbl.Text = resources.GetString("HelpLbl.Text");
+            this.HelpLbl.Text = "Ceci est l\'endroit ou vous devez entrer \r\nl\'arborescence désirée\r\n\r\nSi vous désir" +
+    "ez la créer directement, \r\nutilisez la combinaison\r\n\"Ctrl\" + \"tab\" pour faire le" +
+    "s \r\ntabulations";
             // 
             // CreateStructureBtn
             // 
@@ -149,9 +150,8 @@
             this.ProgressionLbl.ForeColor = System.Drawing.Color.Black;
             this.ProgressionLbl.Location = new System.Drawing.Point(445, 396);
             this.ProgressionLbl.Name = "ProgressionLbl";
-            this.ProgressionLbl.Size = new System.Drawing.Size(71, 13);
+            this.ProgressionLbl.Size = new System.Drawing.Size(0, 13);
             this.ProgressionLbl.TabIndex = 4;
-            this.ProgressionLbl.Text = "Progression : ";
             // 
             // ProgressOfProgressBarLbl
             // 

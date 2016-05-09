@@ -86,17 +86,6 @@ namespace ModuleStructure
                                 CompletePath = DefaultPath;
                                 CompletePath += "\\" + DeleteTabulation;
                                 tab_Path[intX] = CompletePath;
-
-                                /*CompletePath = DefaultPath;
-                                CompletePath += "\\" + DirectoryName;
-                                tab_Path[intX] = CompletePath;*/
-
-                                /*CompletePath += TempPath;
-                                tab_Path[intX] = CompletePath;*/
-
-                                //break;
-                                    
-                                
                             }
                             else
                             {
@@ -113,12 +102,7 @@ namespace ModuleStructure
                                             if (DirectoryName[intA] != Convert.ToChar("\t"))
                                             {
                                                 DeleteTabulation += DirectoryName[intA];
-                                            }/*
-                                            else
-                                            {
-                                                DeleteTabulation += DirectoryName[intA];
-                                                noNewLine = true;
-                                            }*/
+                                            }
                                         }
                                         TempPath = TempPath + "\\" + DeleteTabulation;
 
@@ -169,44 +153,6 @@ namespace ModuleStructure
                             DblPercentage = Math.Round(Convert.ToDouble((ProgressBarValue * 100) / ProgressBarMax), 2);
                             ProgressOfProgressBarLbl.Text = Convert.ToString(DblPercentage) + " %";
                         }
-
-                        /*for (int intX = 0; intX < tab_TextBoxLine.Length; intX++)
-                        {
-                            DirectoryName = tab_TextBoxLine[intX];
-
-                            for (int intY = intX; intY >= 0; intY--)
-                            {
-                                if (tab_TabPerLine[intY] <= tab_TabPerLine[intX])
-                                {
-                                    if (tab_TabPerLine[intY] < (tab_TabPerLine[intX]))
-                                    {
-                                        string DeleteTabulation = "";
-                                        TempPath = "";
-
-                                        for (int intA = 0; intA < DirectoryName.Length; intA++)
-                                        {
-                                            if (DirectoryName[intA] != Convert.ToChar("\t"))
-                                            {
-                                                DeleteTabulation += DirectoryName[intA];
-                                            }
-                                        }
-
-                                        TempPath = TempPath + "\\" + DeleteTabulation;
-
-                                        tab_Path[intX] = tab_Path[intY] + "\\" + TempPath;
-
-                                        break;
-                                    }
-                                }
-                            }
-                        }
-
-                        for (int intX = 0; intX < tab_TextBoxLine.Length; intX++)
-                        {
-                            System.IO.Directory.CreateDirectory(tab_Path[intX]);
-                            if (CreationProgressPrB.Value < CreationProgressPrB.Maximum)
-                                CreationProgressPrB.Value += CreationProgressPrB.Step;
-                        }*/
                     }
                     else
                     {
