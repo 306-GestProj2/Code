@@ -374,7 +374,7 @@ namespace _042_campichele_ManipulationNomFichier
 
         private void DisclamerButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Attention: le module de manipulation de nom de fichier à la possibilité de modifier les extensions de fichier, même si tout est récupérable en renomment l'extension modifiée je ne suis pas résponsable des problèmes suivants:\n\n -Corruption définitive de fichier via l'extension\n -Erreur de manipulation du programme\n -Problèmes avec d'autres logiciels utilisant un fichier renommé avec ce module\nMerci de votre compréhension, le dev.");
+            MessageBox.Show("Attention: le module de manipulation de nom de fichier à la possibilité de modifier les extensions de fichier, même si tout est récupérable en renomment l'extension modifiée je ne suis pas résponsable des problèmes suivants:\n\n -Erreur de manipulation du programme\n -Problèmes avec d'autres logiciels utilisant un fichier renommé avec ce module\nMerci de votre compréhension, le dev.");
         }
 
         private void fileManipulationForm_Load(object sender, EventArgs e)
