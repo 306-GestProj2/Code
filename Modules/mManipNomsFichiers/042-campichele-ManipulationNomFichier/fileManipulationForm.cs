@@ -98,7 +98,9 @@ namespace _042_campichele_ManipulationNomFichier
                     }
                 }
 
+                //unsplit the name with the extension
                 result = result + extension;
+
                 //MessageBox.Show(result);
                 //unsplit the full name with "tokens"
                 string finalToken = "";
@@ -394,7 +396,10 @@ namespace _042_campichele_ManipulationNomFichier
 
         private void extCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (extCheckBox.Checked == true)
+            {
+                MessageBox.Show("Attention: renommer les extensions ne revient pas a convertir le fichier, pour ça, utilisez un convertisseur de fichier!","Important Note",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+            }
         }
     }
 }
