@@ -73,7 +73,6 @@ namespace ModuleStructure
                             {
                                 string DeleteTabulation = "";
                                 TempPath = "";
-                                bool NoNewLine = false;
 
                                 for (int intA = 0; intA < DirectoryName.Length; intA++)
                                 {
@@ -95,7 +94,6 @@ namespace ModuleStructure
                                     {
                                         string DeleteTabulation = "";
                                         TempPath = "";
-                                        bool NoNewLine = false;
 
                                         for (int intA = 0; intA < DirectoryName.Length; intA++)
                                         {

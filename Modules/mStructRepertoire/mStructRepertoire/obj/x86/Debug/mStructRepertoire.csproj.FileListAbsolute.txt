@@ -1,2 +1,7 @@
 D:\DATA\ReyQu\mStructRepertoire\obj\x86\Debug\GestProj-ModuleStructure.exe
 D:\DATA\ReyQu\mStructRepertoire\obj\x86\Debug\GestProj-ModuleStructure.pdb
+D:\DATA\ReyQu\mStructRepertoire\bin\Debug\GestProj-ModuleStructure.exe
+D:\DATA\ReyQu\mStructRepertoire\bin\Debug\GestProj-ModuleStructure.pdb
+D:\DATA\ReyQu\mStructRepertoire\obj\x86\Debug\ModuleStructure.ModuleStructure.resources
+D:\DATA\ReyQu\mStructRepertoire\obj\x86\Debug\ModuleStructure.Properties.Resources.resources
+D:\DATA\ReyQu\mStructRepertoire\obj\x86\Debug\mStructRepertoire.csproj.GenerateResource.Cache
