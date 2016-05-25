@@ -253,7 +253,10 @@ namespace Tire_balistique
            
             if (!System.Text.RegularExpressions.Regex.IsMatch(textBoxDegrees.Text, "^[0-9]{1,2}$")) 
             {
-                textBoxDegrees.Text = "0"; 
+                if (Convert.ToInt32(textBoxDegrees.Text) >= 90)
+                {
+                    textBoxDegrees.Text = "0";
+                }
             }
         }
 

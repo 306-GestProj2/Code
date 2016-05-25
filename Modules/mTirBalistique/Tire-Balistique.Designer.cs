@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.buttonColor = new System.Windows.Forms.Button();
             this.buttonStop = new System.Windows.Forms.Button();
@@ -64,7 +65,7 @@
             this.groupBox1.Size = new System.Drawing.Size(671, 87);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Saisie des paramètre du tire balistique";
+            this.groupBox1.Text = "Saisie des paramètre du tir balistique";
             // 
             // buttonColor
             // 
@@ -221,8 +222,9 @@
             this.ClientSize = new System.Drawing.Size(695, 572);
             this.Controls.Add(this.panelDraw);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Tire Balistique";
+            this.Text = "Tir Balistique";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panelDraw.ResumeLayout(false);

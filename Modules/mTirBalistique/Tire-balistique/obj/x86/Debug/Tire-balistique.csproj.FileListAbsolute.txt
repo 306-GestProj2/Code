@@ -13,3 +13,11 @@ H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\obj\x86\Debug\Tire_balistiqu
 H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\obj\x86\Debug\Tire_balistique.Properties.Resources.resources
 H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\obj\x86\Debug\Tire-balistique.csproj.GenerateResource.Cache
 H:\ETML(2)\P_42 - Travail de groupe\Tire-balistique\obj\x86\Debug\Tire-balistique.csprojResolveAssemblyReference.cache
+D:\DATA\pichonnama\TirBalistique\Tire-balistique\obj\x86\Debug\Tire-balistique.exe
+D:\DATA\pichonnama\TirBalistique\Tire-balistique\obj\x86\Debug\Tire-balistique.pdb
+D:\DATA\pichonnama\TirBalistique\Tire-balistique\bin\Debug\Tire-balistique.exe
+D:\DATA\pichonnama\TirBalistique\Tire-balistique\bin\Debug\Tire-balistique.pdb
+D:\DATA\pichonnama\TirBalistique\Tire-balistique\obj\x86\Debug\Tire-balistique.csprojResolveAssemblyReference.cache
+D:\DATA\pichonnama\TirBalistique\Tire-balistique\obj\x86\Debug\Tire_balistique.Form1.resources
+D:\DATA\pichonnama\TirBalistique\Tire-balistique\obj\x86\Debug\Tire_balistique.Properties.Resources.resources
+D:\DATA\pichonnama\TirBalistique\Tire-balistique\obj\x86\Debug\Tire-balistique.csproj.GenerateResource.Cache
