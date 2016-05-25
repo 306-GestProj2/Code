@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ToolBoxETML-Dessin.exe" version="1.0.0.1" publicKeyToken="a0699f5216a06faa" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ToolBoxETML-Dessin" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ToolBoxETML-Dessin.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options du manifeste de contrôle de compte d'utilisateur
+          Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le 
+          nœud requestedExecutionLevel par l'une des propositions suivantes :
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la 
+         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ToolBoxETML-Dessin.exe" size="100352">
+      <assemblyIdentity name="ToolBoxETML-Dessin" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>vSNgUcdLSMEZHT6BqeEJD5+Qsao=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Logo.ico" size="18718">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZLq8MwQW4kPLHmeaEtwff2TvHpI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ETMLNET\berdozlo" issuerKeyHash="da1784c350c6a36faa2e3e6dd3bcd84db524d28e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>o4XzfFmIqlMB1oL68EfV9CQfd9s=</DigestValue></Reference></SignedInfo><SignatureValue>VpzkbE4K1oq/uB50hUdoT2dAcLYj4VE/r8NvakL9Qvmv3c7VjC7FsLGTOGtoXU0NZsGcNtdhpeS2NiAs0L1NmkFNmtL65gGI7SW5V08jvhsGBDv2uyNy+p2LlO6U6vSisPuOLSegIeK2KBjeluC/OUPQrWt49niFbTDTpGhNKFY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lBjQAM3AA0oAOmLNnjmzyS8H4i3UWqK8lr3XMpWM+SS5NlVuQ0DeiXSchKSfDZTbKvfXLH9rfl2FKituUBPEExiNBmDnzXUPhqBABWTzTIbyr4qVv4JT7uV+6D2vSRuUybTRoYXLu//HnLdQmIasIVixd5zdlgJ+yURmSdtf/YE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="db771f24f4d547f0fa82d60153aa88597cf385a3" Description="" Url=""><as:assemblyIdentity name="ToolBoxETML-Dessin.exe" version="1.0.0.1" publicKeyToken="a0699f5216a06faa" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ETMLNET\berdozlo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>uH03iIjnx8ub0Kkdu3wWynLY9G4=</DigestValue></Reference></SignedInfo><SignatureValue>YbwCnceW9ffthZEWZNFn020OTtZ17l33MRHQ6Y1VhEuZmf+jAaWvv56K8jq6JdYaSdFaaC9WgDEdIqFZA4wSAGKpH5k3d3hk75P5wgBIg4d/ZpXmY/fI2Aa7SJDf09sKyC1BOLO4Cz/Cwpu4iO7ZkN52YWyIhrttEVOF/wCrbiA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lBjQAM3AA0oAOmLNnjmzyS8H4i3UWqK8lr3XMpWM+SS5NlVuQ0DeiXSchKSfDZTbKvfXLH9rfl2FKituUBPEExiNBmDnzXUPhqBABWTzTIbyr4qVv4JT7uV+6D2vSRuUybTRoYXLu//HnLdQmIasIVixd5zdlgJ+yURmSdtf/YE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQYUFZJGnJmJFMGuXbXWw33TANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAARQBUAE0ATABOAEUAVABcAGIAZQByAGQAbwB6AGwAbzAeFw0xNjA1MjUwODI4MjZaFw0xNzA1MjUxNDI4MjZaMCsxKTAnBgNVBAMeIABFAFQATQBMAE4ARQBUAFwAYgBlAHIAZABvAHoAbABvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUGNAAzcADSgA6Ys2eObPJLwfiLdRaoryWvdcylYz5JLk2VW5DQN6JdJyEpJ8NlNsq99csf2t+XYUqK25QE8QTGI0GYOfNdQ+GoEAFZPNMhvKvipW/glPu5X7oPa9JG5TJtNGhhcu7/8ect1CYhqwhWLF3nN2WAn7JRGZJ21/9gQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAFg3zk7hHVhGJe5tX5sZbaUUXFxIAzgkXtdeNQxC+5D2lW7Qtmb+tnpfcGOOJDNNIqTvx4fqCF15Ys63pwTHdbkV91G78xzWUDvV74UI0mC8rR7NHo52RxK0OVZtMBxwPjyxbN18CZh+gfDayIy65fugeZOwaoQnqyaB5xWuZ/Tg</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

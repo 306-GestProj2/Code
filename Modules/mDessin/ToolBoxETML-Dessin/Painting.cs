@@ -15,6 +15,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Drawing.Imaging;
 using ToolBoxETML_Dessin;
+using System.Threading.Tasks;
 
 namespace ToolBoxETML_Dessin
 {
@@ -34,7 +35,7 @@ namespace ToolBoxETML_Dessin
         Text formText = new Text();                      //
         private int intX;                                //
         private int intY;                                //
-        private int nbOfTicks = 0;                       //
+        //private int nbOfTicks = 0;                       //
         About About = new About();                       //
         Color clrForm;                                   //
         Font myFont;                                     //
@@ -246,7 +247,8 @@ namespace ToolBoxETML_Dessin
 
                 if (stateTool == "text")
                 {
-                    timAntiBug.Enabled = true;
+                    //timAntiBug.Enabled = true;
+                    DrawText();
                 }
         }
         /// <summary>
@@ -298,29 +300,37 @@ namespace ToolBoxETML_Dessin
         {
             if (txtToAdd != null)
             {
-                TextRenderer.DrawText(myGraphics, txtToAdd, myFont, new Point(intX, intY), lblColor.BackColor);
+                try
+                {
+                    TextRenderer.DrawText(myGraphics, txtToAdd, myFont, new Point(intX, intY), lblColor.BackColor);
+
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show("Veuillez cliquer moins vite sur la zone de dessin après avoir écrit votre texte. \n" + e);
+                }
             }
             //myGraphics.DrawString(txtToAdd, new Font(selectedFont, selectedSize), myBrush, new Point(intX, intY));  
             txtToAdd = null;
             intX = 0;
             intY = 0;
-            nbOfTicks = 0;
-            timAntiBug.Enabled = false;
+            //nbOfTicks = 0;
+            //timAntiBug.Enabled = false;
         }
-        /// <summary>
-        /// Incrémente nbOfTicks à chaque Tick du timer et si nbOfticks = 1, appelle la méthode DrawText.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void timAntiBug_Tick(object sender, EventArgs e)
-        {
-            nbOfTicks++;
+        ///// <summary>
+        ///// Incrémente nbOfTicks à chaque Tick du timer et si nbOfticks = 1, appelle la méthode DrawText.
+        ///// </summary>
+        ///// <param name="sender"></param>
+        ///// <param name="e"></param>
+        //private void timAntiBug_Tick(object sender, EventArgs e)
+        //{
+        //    nbOfTicks++;
 
-            if (nbOfTicks == 1)
-            {
-                DrawText();
-            }
-        }
+        //    if (nbOfTicks == 1)
+        //    {
+        //        DrawText();
+        //    }
+        //}
 
         /// <summary>
         /// Passe le programme en plein écran
@@ -331,12 +341,14 @@ namespace ToolBoxETML_Dessin
         {
             if (this.TopMost == false)
             {
+                pleinÉcranToolStripMenuItem.Text = "Mode fenêtre";                
                 this.FormBorderStyle = FormBorderStyle.None;
                 this.TopMost = true;
                 this.WindowState = FormWindowState.Maximized;
             }
             else
             {
+                pleinÉcranToolStripMenuItem.Text = "Plein écran";                
                 this.FormBorderStyle = FormBorderStyle.Sizable;
                 this.TopMost = false;
                 this.WindowState = FormWindowState.Normal;

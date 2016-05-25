@@ -72,6 +72,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picDrawingZone.BackColor = System.Drawing.Color.White;
+            this.picDrawingZone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picDrawingZone.Cursor = System.Windows.Forms.Cursors.Default;
             this.picDrawingZone.Location = new System.Drawing.Point(90, 38);
             this.picDrawingZone.Name = "picDrawingZone";
@@ -119,7 +120,37 @@
             "17",
             "18",
             "19",
-            "20"});
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50"});
             this.cmbSizeBrush.Location = new System.Drawing.Point(5, 87);
             this.cmbSizeBrush.Name = "cmbSizeBrush";
             this.cmbSizeBrush.Size = new System.Drawing.Size(51, 21);
@@ -128,6 +159,7 @@
             // lblColor
             // 
             this.lblColor.BackColor = System.Drawing.Color.Black;
+            this.lblColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblColor.Location = new System.Drawing.Point(5, 31);
             this.lblColor.Name = "lblColor";
             this.lblColor.Size = new System.Drawing.Size(52, 41);
@@ -197,7 +229,7 @@
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.optionsToolStripMenuItem.Text = "Options...";
             this.optionsToolStripMenuItem.Click += new System.EventHandler(this.optionsToolStripMenuItem_Click);
             // 
@@ -213,7 +245,7 @@
             // pleinÉcranToolStripMenuItem
             // 
             this.pleinÉcranToolStripMenuItem.Name = "pleinÉcranToolStripMenuItem";
-            this.pleinÉcranToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.pleinÉcranToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.pleinÉcranToolStripMenuItem.Text = "Plein écran";
             this.pleinÉcranToolStripMenuItem.Click += new System.EventHandler(this.pleinÉcranToolStripMenuItem_Click);
             // 
@@ -223,7 +255,7 @@
             this.normalToolStripMenuItem,
             this.sombreToolStripMenuItem});
             this.thèmeToolStripMenuItem.Name = "thèmeToolStripMenuItem";
-            this.thèmeToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.thèmeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.thèmeToolStripMenuItem.Text = "Thème";
             // 
             // normalToolStripMenuItem
@@ -251,7 +283,7 @@
             // aProposToolStripMenuItem
             // 
             this.aProposToolStripMenuItem.Name = "aProposToolStripMenuItem";
-            this.aProposToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.aProposToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.aProposToolStripMenuItem.Text = "A propos";
             this.aProposToolStripMenuItem.Click += new System.EventHandler(this.aProposToolStripMenuItem_Click);
             // 
@@ -273,6 +305,7 @@
             this.pnlEraser.BackColor = System.Drawing.Color.White;
             this.pnlEraser.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlEraser.BackgroundImage")));
             this.pnlEraser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlEraser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pnlEraser.Location = new System.Drawing.Point(4, 63);
             this.pnlEraser.Name = "pnlEraser";
             this.pnlEraser.Size = new System.Drawing.Size(32, 29);
@@ -284,6 +317,7 @@
             this.pnlPen.BackColor = System.Drawing.Color.White;
             this.pnlPen.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlPen.BackgroundImage")));
             this.pnlPen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlPen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pnlPen.Location = new System.Drawing.Point(4, 28);
             this.pnlPen.Name = "pnlPen";
             this.pnlPen.Size = new System.Drawing.Size(32, 29);
@@ -295,6 +329,7 @@
             this.pnlPencil.BackColor = System.Drawing.Color.White;
             this.pnlPencil.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlPencil.BackgroundImage")));
             this.pnlPencil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlPencil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pnlPencil.Location = new System.Drawing.Point(41, 28);
             this.pnlPencil.Name = "pnlPencil";
             this.pnlPencil.Size = new System.Drawing.Size(32, 29);
@@ -314,6 +349,7 @@
             // 
             // btnValidateText
             // 
+            this.btnValidateText.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnValidateText.Location = new System.Drawing.Point(6, 54);
             this.btnValidateText.Name = "btnValidateText";
             this.btnValidateText.Size = new System.Drawing.Size(67, 36);
@@ -327,6 +363,7 @@
             this.pnlText.BackColor = System.Drawing.Color.White;
             this.pnlText.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlText.BackgroundImage")));
             this.pnlText.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pnlText.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pnlText.Location = new System.Drawing.Point(4, 19);
             this.pnlText.Name = "pnlText";
             this.pnlText.Size = new System.Drawing.Size(32, 29);
@@ -336,7 +373,6 @@
             // timAntiBug
             // 
             this.timAntiBug.Interval = 150;
-            this.timAntiBug.Tick += new System.EventHandler(this.timAntiBug_Tick);
             // 
             // Painting
             // 

@@ -16,3 +16,7 @@ H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETM
 H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML_Dessin.Text.resources
 H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML_Dessin.About.resources
 H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML_Dessin.myFontPicker.resources
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\bin\Release\ToolBoxETML-Dessin.exe.manifest
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\bin\Release\ToolBoxETML-Dessin.application
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML-Dessin.exe.manifest
+H:\Applications-Projet\PetitProjetInformatique\Dessin & Images\Projet\ToolBoxETML-Dessin\obj\x86\Release\ToolBoxETML-Dessin.application
