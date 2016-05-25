@@ -1,0 +1,19 @@
+C:\Users\favreju\AppData\Local\Temporary Projects\Module-Resistance\obj\x86\Debug\Module_Resistance.FormResistance.resources
+C:\Users\favreju\AppData\Local\Temporary Projects\Module-Resistance\obj\x86\Debug\Module_Resistance.Properties.Resources.resources
+C:\Users\favreju\AppData\Local\Temporary Projects\Module-Resistance\obj\x86\Debug\Module-Resistance.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\bin\Debug\Module-Resistance.exe
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\bin\Debug\Module-Resistance.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module_Resistance.FormResistance.resources
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module_Resistance.Properties.Resources.resources
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module-Resistance.csproj.GenerateResource.Cache
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module-Resistance.exe
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module-Resistance.pdb
+D:\DATA\dadiesa\PetitProjetInformatique\Module-Resistance\obj\x86\Debug\Module-Resistance.csprojResolveAssemblyReference.cache
+C:\Users\pichonnama\Desktop\Module-Resistance\obj\x86\Debug\Module-Resistance.exe
+C:\Users\pichonnama\Desktop\Module-Resistance\obj\x86\Debug\Module-Resistance.pdb
+C:\Users\pichonnama\Desktop\Module-Resistance\bin\Debug\Module-Resistance.exe
+C:\Users\pichonnama\Desktop\Module-Resistance\bin\Debug\Module-Resistance.pdb
+C:\Users\pichonnama\Desktop\Module-Resistance\obj\x86\Debug\Module-Resistance.csprojResolveAssemblyReference.cache
+C:\Users\pichonnama\Desktop\Module-Resistance\obj\x86\Debug\Module_Resistance.FormResistance.resources
+C:\Users\pichonnama\Desktop\Module-Resistance\obj\x86\Debug\Module_Resistance.Properties.Resources.resources
+C:\Users\pichonnama\Desktop\Module-Resistance\obj\x86\Debug\Module-Resistance.csproj.GenerateResource.Cache
