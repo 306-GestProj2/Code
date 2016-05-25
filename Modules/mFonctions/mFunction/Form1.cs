@@ -24,7 +24,6 @@ namespace FormCalculFunction
             double ValueB = 0;
             double ValueC = 0;
             double FirstX;
-            double SecondX;
             double FirstY;
 
             int origo_x = DrawPanel.Width / 2;
@@ -150,6 +149,8 @@ namespace FormCalculFunction
                     g.DrawImageUnscaled(pen, newpoint);
                     
                 }
+
+                SaveDrawing();
             }
 
             
@@ -176,5 +177,22 @@ namespace FormCalculFunction
         {
             MessageBox.Show("Ceci est ma dernière trace dans ce module inachevé");
         }
+
+        private void SaveDrawing()
+        {
+            Bitmap pasPerdre = new Bitmap(DrawPanel.Width, DrawPanel.Height);
+            Graphics g = Graphics.FromImage(pasPerdre);
+            Rectangle rect = DrawPanel.RectangleToScreen(DrawPanel.ClientRectangle);
+            g.CopyFromScreen(rect.Location, Point.Empty, DrawPanel.Size);
+            g.Dispose();
+            DrawPanel.BackgroundImage = pasPerdre;
+        }
+
+        private void FormCalculFunction_Leave(object sender, EventArgs e)
+        {
+            SaveDrawing();
+        }
+
+
     }
 }
