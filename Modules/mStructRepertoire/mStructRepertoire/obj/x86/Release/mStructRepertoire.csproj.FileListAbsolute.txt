@@ -14,3 +14,11 @@ H:\Modules\Module-projet\P42-GestionProjet2\mStructRepertoire\obj\x86\Release\Mo
 H:\Modules\Module-projet\P42-GestionProjet2\mStructRepertoire\obj\x86\Release\mStructRepertoire.csproj.GenerateResource.Cache
 H:\Modules\Module-projet\P42-GestionProjet2\mStructRepertoire\obj\x86\Release\GestProj-ModuleStructure.exe
 H:\Modules\Module-projet\P42-GestionProjet2\mStructRepertoire\obj\x86\Release\GestProj-ModuleStructure.pdb
+K:\INF\Eleves\Classes\CINa_14-18\TOOLBOX\codeStructRep\mStructRepertoire\bin\Release\GestProj-ModuleStructure.exe
+K:\INF\Eleves\Classes\CINa_14-18\TOOLBOX\codeStructRep\mStructRepertoire\bin\Release\GestProj-ModuleStructure.pdb
+K:\INF\Eleves\Classes\CINa_14-18\TOOLBOX\codeStructRep\mStructRepertoire\obj\x86\Release\mStructRepertoire.csprojResolveAssemblyReference.cache
+K:\INF\Eleves\Classes\CINa_14-18\TOOLBOX\codeStructRep\mStructRepertoire\obj\x86\Release\ModuleStructure.ModuleStructure.resources
+K:\INF\Eleves\Classes\CINa_14-18\TOOLBOX\codeStructRep\mStructRepertoire\obj\x86\Release\ModuleStructure.Properties.Resources.resources
+K:\INF\Eleves\Classes\CINa_14-18\TOOLBOX\codeStructRep\mStructRepertoire\obj\x86\Release\mStructRepertoire.csproj.GenerateResource.Cache
+K:\INF\Eleves\Classes\CINa_14-18\TOOLBOX\codeStructRep\mStructRepertoire\obj\x86\Release\GestProj-ModuleStructure.exe
+K:\INF\Eleves\Classes\CINa_14-18\TOOLBOX\codeStructRep\mStructRepertoire\obj\x86\Release\GestProj-ModuleStructure.pdb
