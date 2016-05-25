@@ -55,7 +55,15 @@ namespace ModuleStructure
                             Tabnumber = 0;
                             DirectoryName = tab_TextBoxLine[intX];
                             bool IsLetter = false;
+                            bool IsLetterInName = false;
 
+                            for (int intY = 0; intY < DirectoryName.Length; intY++)
+                            {
+                                if (DirectoryName[intY] != ' ' && DirectoryName[intY] != '\t')
+                                    IsLetterInName = true;
+                                else
+                                    IsLetterInName = false;
+                            }
 
                             for (int intY = 0; intY < DirectoryName.Length; intY++)
                             {
@@ -73,6 +81,7 @@ namespace ModuleStructure
                             {
                                 string DeleteTabulation = "";
                                 TempPath = "";
+                                bool NoNewLine = false;
 
                                 for (int intA = 0; intA < DirectoryName.Length; intA++)
                                 {
@@ -85,6 +94,17 @@ namespace ModuleStructure
                                 CompletePath = DefaultPath;
                                 CompletePath += "\\" + DeleteTabulation;
                                 tab_Path[intX] = CompletePath;
+
+                                /*CompletePath = DefaultPath;
+                                CompletePath += "\\" + DirectoryName;
+                                tab_Path[intX] = CompletePath;*/
+
+                                /*CompletePath += TempPath;
+                                tab_Path[intX] = CompletePath;*/
+
+                                //break;
+
+
                             }
                             else
                             {
@@ -94,13 +114,19 @@ namespace ModuleStructure
                                     {
                                         string DeleteTabulation = "";
                                         TempPath = "";
+                                        bool NoNewLine = false;
 
                                         for (int intA = 0; intA < DirectoryName.Length; intA++)
                                         {
                                             if (DirectoryName[intA] != Convert.ToChar("\t"))
                                             {
                                                 DeleteTabulation += DirectoryName[intA];
-                                            }
+                                            }/*
+                                            else
+                                            {
+                                                DeleteTabulation += DirectoryName[intA];
+                                                noNewLine = true;
+                                            }*/
                                         }
                                         TempPath = TempPath + "\\" + DeleteTabulation;
 
@@ -112,6 +138,7 @@ namespace ModuleStructure
                                 }
                             }
 
+                            int recupIntY = 0;
                             for (int intY = intX; intY >= 0; intY--)
                             {
                                 if (tab_TabPerLine[intY] <= tab_TabPerLine[intX])
@@ -132,13 +159,56 @@ namespace ModuleStructure
                                         TempPath = TempPath + "\\" + DeleteTabulation;
 
                                         tab_Path[intX] = tab_Path[intY] + "\\" + TempPath;
+                                        recupIntY = intY;
 
                                         break;
                                     }
                                 }
                             }
 
-                            System.IO.Directory.CreateDirectory(tab_Path[intX]);
+                            try
+                            {
+                                if (IsLetterInName == true)
+                                    System.IO.Directory.CreateDirectory(tab_Path[intX]);
+                                else
+                                {
+                                    string result = "";
+                                    //split the name + path of the Item every "\" and store all part in the "tokens" table
+                                    string[] tokens = tab_Path[intX].Split('\\');
+                                    //unsplit the full name with "tokens"
+                                    for (int y = 0; y < tokens.Length - 1; y++)
+                                    {
+                                        result = result + tokens[y] + "\\";
+                                    }
+                                    result = result + DateTime.Now.ToString("hh.mm.ss.fff"); ;
+
+                                    System.IO.Directory.CreateDirectory(result);
+
+                                    tab_Path[intX] = result;
+                                }
+                            }
+                            catch (Exception z)
+                            {
+                                string result = "";
+                                //split the name + path of the Item every "\" and store all part in the "tokens" table
+                                string[] tokens = tab_Path[intX].Split('\\');
+                                //unsplit the full name with "tokens"
+                                for (int y = 0; y < tokens.Length - 1; y++)
+                                {
+                                    result = result + tokens[y] + "\\";
+                                }
+                                result = result + DateTime.Now.ToString("hh.mm.ss.fff"); ;
+
+                                System.IO.Directory.CreateDirectory(result);
+                                DialogResult exceptionDisplay = MessageBox.Show("Une exception est survenue, le code va continuer à s'executer. Le dossier concerner par l'exception a été nommé avec l'heure actuelle.\nAfficher les détails de l'exception?", "Echec", MessageBoxButtons.YesNo);
+
+                                if (exceptionDisplay == DialogResult.Yes)
+                                {
+                                    MessageBox.Show(Convert.ToString(z));
+                                }
+                                tab_Path[intX] = result;
+                            }
+
                             if (CreationProgressPrB.Value < CreationProgressPrB.Maximum)
                                 CreationProgressPrB.Value += CreationProgressPrB.Step;
 
